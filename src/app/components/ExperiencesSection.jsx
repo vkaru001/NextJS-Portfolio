@@ -52,7 +52,7 @@ const ExperienceData = [
       Description:"",
       tag: ["Certifications"],
 
-      previewUrl: "/",
+      previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
     },
     {
       id: 4,
@@ -63,7 +63,7 @@ const ExperienceData = [
       Description:"",
       tag: ["Certifications"],
 
-      previewUrl: "/",
+      previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/8A907186F21854E5?sharingId=60D137E327399C2A",
     },
     {
       id: 5,
@@ -74,7 +74,7 @@ const ExperienceData = [
       image: "/images/projects/Microsoft.jpeg",
       tag: ["Certifications"],
 
-      previewUrl: "/",
+      previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/DF5EFAA47C9CF06A?sharingId=60D137E327399C2A",
     },
     {
       id: 6,
@@ -85,9 +85,8 @@ const ExperienceData = [
       image: "/images/projects/Udemy.jpeg",
       tag: ["Certifications"],
 
-      previewUrl: "/",
-    },
-    
+      previewUrl: "https://www.udemy.com/certificate/UC-06e15267-9008-4101-ad39-79355709615d/",
+    }
   ];
   const ExperiencesSection = () => {
   const [tag, setTag] = useState("Experience");

@@ -18,9 +18,9 @@ const projectsData = [
         
       </ul>
     ),
-    image: "/images/projects/Portfolio1.jpg",
+    image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/vkaru001/NextJS-Portfolio",
   },
   {
     id: 2,
