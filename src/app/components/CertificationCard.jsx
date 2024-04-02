@@ -2,7 +2,7 @@ import React from "react";
 import {  EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const ExperienceCard = ({ imgUrl, Organization, Role, Period, Description , previewUrl }) => {
+const CertificationCard = ({ imgUrl, Organization, Role, Period, Description , previewUrl }) => {
   return (
     <div>
       <div
@@ -29,4 +29,4 @@ const ExperienceCard = ({ imgUrl, Organization, Role, Period, Description , prev
   );
 };
 
-export default ExperienceCard;
+export default CertificationCard;

@@ -44,11 +44,13 @@ const AboutSection = () => {
 
   return (
     <section className="text-white" id="about">
+      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+        My Experiences
+      </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about.png" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
+         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+          <p className="text-base lg:text-lg"> 
           Hello! I am a Front End developer with a passion for creating interactive and responsive web applications. I have 3 years of experience in web development and expertise in JavaScript and React. Strong debugging skills in large codebases. Experience working in Agile Software Development. I am a quick earner and I am always looking to expand my knowledge and skill set. Dedicated team player who firmly believes that a team can accomplish significant success together. Proactive in taking responsibility for new initiatives. Worked across all functional areas of software development.As a Web Developer, I am always obsessed with minor details, learning new technologies, and building innovative features in an application.
           </p>
           <div className="flex flex-row justify-start mt-8">

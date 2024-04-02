@@ -1,95 +1,59 @@
 "use client";
 import React, { useState, useRef } from "react";
-import ExperienceCard from "./ExperienceCard";
-import ExperienceTag from "./ExperienceTag";
+import CertificationCard from "./CertificationCard";
+import CertificationTag from "./CertificationTag";
 
 import { motion, useInView } from "framer-motion";
-const ExperienceData = [
+const CertificationData = [
+    
+      
     {
       id: 1,
-      Organization: "Suvarna TechnoSoft",
-      Role: "Front-End Developer, Full Time",
-      Period:"(Jan 2020 - July 2022)",
-      Description: (
-        <ul className="list-disc pl-2">
-           <b>Technologies Used:</b>
-          <li>HTML, CSS & JavaScript(DOM Manipulation)</li>
-          <li>ReactJS - Redux, React Hooks, NPM</li>
-          <li>Rest APIs & OAuth - Authorization</li>
-          <li>Azure Active Directory - Authentication</li>
-          <li>GitHub for Source Code Management</li>
-        </ul>
-      ),
-      image: "/images/projects/Suvarna.jpeg",
-      tag: ["Experience"],
-
-      previewUrl: "",
-    },
-    {
-      id: 2,
-      Organization: "Suvarna TechnoSoft",
-      Role: "Web Developer, Intern",
-      Period:"(July 2019 - Dec 2019)",
-      Description: (
-        <ul className="list-disc pl-2">
-           <b>Technologies Used:</b>
-           <li>HTML, CSS & JavaScipt</li>
-           <li>ReactJS</li>
-          <li>GitHub for Source Code Management</li>
-        </ul>
-      ),
-      image: "/images/projects/Suvarna.jpeg",
-      tag: ["Experience"],
-
-      previewUrl: "",
-    },
-    {
-      id: 3,
       Organization: "Coursera Cerified",
       Role: "Front_End Development with React",
       image: "/images/projects/Coursera.jpeg",
       Period:"",
       Description:"",
-      tag: ["Certifications"],
+      tag: ["All","Web Technologies"],
 
       previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
     },
     {
-      id: 4,
+      id: 2,
       Organization: "Microsoft Cerified",
       Role: "Azure Fundamentals",
       image: "/images/projects/Microsoft.jpeg",
       Period:"",
       Description:"",
-      tag: ["Certifications"],
+      tag: ["All","Cloud"],
 
       previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/8A907186F21854E5?sharingId=60D137E327399C2A",
     },
     {
-      id: 5,
+      id: 3,
       Organization: "Microsoft Certified",
       Role: "Azure Data Fundamentals",
       Period:"",
       Description:"",
       image: "/images/projects/Microsoft.jpeg",
-      tag: ["Certifications"],
+      tag: ["All","Cloud"],
 
       previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/DF5EFAA47C9CF06A?sharingId=60D137E327399C2A",
     },
     {
-      id: 6,
+      id: 4,
       Organization: "Udemy Cetified",
       Role: "Python Mega Course",
       Period:"",
       Description:"",
       image: "/images/projects/Udemy.jpeg",
-      tag: ["Certifications"],
+      tag: ["All","Languages"],
 
       previewUrl: "https://www.udemy.com/certificate/UC-06e15267-9008-4101-ad39-79355709615d/",
     }
   ];
-  const ExperiencesSection = () => {
-  const [tag, setTag] = useState("Experience");
+  const CertificationSection = () => {
+  const [tag, setTag] = useState("All");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -97,8 +61,8 @@ const ExperienceData = [
     setTag(newTag);
   };
 
-  const filteredExperiences = ExperienceData.filter((experiences) =>
-    experiences.tag.includes(tag)
+  const filteredCertifications = CertificationData.filter((Certifications) =>
+    Certifications.tag.includes(tag)
   );
 
   // const cardVariants = {
@@ -107,25 +71,36 @@ const ExperienceData = [
   // };
 
   return (
-    <section id="Experiences">
+    <section id="Certifications">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Experiences
+        I'm Certified in
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ExperienceTag
+        
+        <CertificationTag
           onClick={handleTagChange}
-          name="Experience"
-          isSelected={tag === "Experience"}
+          name="All"
+          isSelected={tag === "All"}
         />
-        <ExperienceTag
+        <CertificationTag
           onClick={handleTagChange}
-          name="Certifications"
-          isSelected={tag === "Certifications"}
+          name="Web Technologies"
+          isSelected={tag === "Web Technologies"}
+        />
+        <CertificationTag
+          onClick={handleTagChange}
+          name="Cloud"
+          isSelected={tag === "Cloud"}
+        />
+        <CertificationTag
+          onClick={handleTagChange}
+          name="Languages"
+          isSelected={tag === "Languages"}
         />
         
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-10 md:gap-12">
-        {filteredExperiences.map((experiences, index) => (
+        {filteredCertifications.map((Certifications, index) => (
           <motion.li
             key={index}
             // variants={cardVariants}
@@ -133,15 +108,15 @@ const ExperienceData = [
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ExperienceCard
-              key={experiences.id}
-              Organization={experiences.Organization}
-              Role={experiences.Role}
-              Period={experiences.Period}
-              Description={experiences.Description}
-              imgUrl={experiences.image}
+            <CertificationCard
+              key={Certifications.id}
+              Organization={Certifications.Organization}
+              Role={Certifications.Role}
+              Period={Certifications.Period}
+              Description={Certifications.Description}
+              imgUrl={Certifications.image}
 
-              previewUrl={experiences.previewUrl}
+              previewUrl={Certifications.previewUrl}
             />
           </motion.li>
 
@@ -153,4 +128,4 @@ const ExperienceData = [
   );
 };
 
-export default ExperiencesSection;
+export default CertificationSection;

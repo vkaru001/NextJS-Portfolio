@@ -1,6 +1,6 @@
 import React from "react";
 
-const ExperienceTag = ({ name, onClick, isSelected }) => {
+const CertificationTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
     ? "text-white border-primary-500"
     : "text-[#ADB7BE] border-slate-600 hover:border-white";
@@ -14,4 +14,4 @@ const ExperienceTag = ({ name, onClick, isSelected }) => {
   );
 };
 
-export default ExperienceTag;
+export default CertificationTag;
