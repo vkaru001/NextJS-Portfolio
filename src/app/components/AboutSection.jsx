@@ -45,7 +45,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Experiences
+        About Me
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about.png" width={500} height={500} />
