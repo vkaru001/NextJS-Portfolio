@@ -76,6 +76,7 @@ const ExperienceSection = () => {
             
           </div>
           <div className="mt-8">
+            <h1><b>{TAB_DATA.find((t) => t.id === tab).title}</b></h1>
             <small>{TAB_DATA.find((t) => t.id === tab).period}</small>
             {TAB_DATA.find((t) => t.id === tab).content}
             
