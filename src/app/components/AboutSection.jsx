@@ -9,13 +9,14 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Java & Python</li>
-        <li>HTML, CSS & JavaScript</li>
-        <li>ReactJS & NextJS</li>
-        <li>Rest API & GraphQL</li>
-        <li>PostgreSQL & MySQL</li>
-        <li>Azure & AWS</li>
-        <li>GitHub</li>
+        <li><b>Languages:</b> Java, Python, C#</li>
+        <li><b>Web Technologies:</b> HTML, CSS, JavaScript & TypeScript</li>
+        <li><b>FrameWorks:</b> ReactJS, NextJS & NodeJS</li>
+        <li><b>APIs: </b>Rest API, GraphQL & OpenAI API</li>
+        <li><b>DataBases:</b> PostgreSQL & MySQL</li>
+        <li><b>Cloud:</b> Azure, AWS & Docker</li>
+        <li><b>Version Control & Tools: </b>GitHub, Visual Studio, JIRA, Jenkins, pgAdmin, & Jest</li>
+        <li><b>Machine Learning Techniques: </b> Linear Discriminant Analysis, Random Forest, Logistic Regression, Scikit, Seaborn, Tesseract, Pandas</li>
       </ul>
     ),
   },

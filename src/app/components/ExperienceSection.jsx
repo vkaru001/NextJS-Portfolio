@@ -10,13 +10,12 @@ const TAB_DATA = [
     period:"(Jan 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Built end-to-end front-end websites for Outpatient Management in hospitals using JavaScript, and ReactJS.</li>
-        <li>Designed UI and some server-side logic for front end using React.js for DOM manipulation, used various reusable components and functionalities from React Hooks, NPM and Redux. </li>
-        <li>Assisted in creating multiple dynamic widgets to improve the capture and display of doctor availability, reducing appointment approval time for customers by 40%.</li>
+        <li>Implemented many upgrades for “HIMS” and “LIS” website’s UI with ReactJS and Node.js, aligning with the business requirements with enhancing the site’s responsiveness.</li>
+        <li>Assisted in creating multiple dynamic widgets to improve the capture and display of doctor availability, reducing appointment booking approval time for customers by 40%.</li>
         <li>Achieved a 30% reduction in website load times through performance optimization techniques.</li>
-        <li>Implemented a floating chatbot interface for couple of hospitals for customer support.</li>
-        <li>Active code reviewer, reviewing the most changes on my team Quarter Over Quarter (QoQ) and focused on performance and cross platform browser and device support.</li>
-        <li>Developed Azure Active Directory (AAD) authentication and OAuth authorization for API security. </li>
+        <li>Integrated the customer services chatbot functionality, resulting in a 15% increase in customer support. </li>
+        <li>Monitored performance of the REST API and optimized it as required, led to 20% improvement in API speed and 30% decrease in API calls using Redis cache and managed databases using MySQL. </li>
+        <li>Active code reviewer and managed many JIRA issues, reviewing the most changes on my team Quarter Over Quarter (QoQ) and focused on performance and cross platform browser and device support.</li>
       </ul>
     ),
   },
@@ -27,8 +26,8 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Developed multiple proof-of-concepts (POCs) by building various login portals and Product UI builder screens for Outpatient Management’s web applications using HTML, CSS3, JavaScript, and React.</li>
-        <li>Developed and implemented new UI features and components while resolving existing UI bugs before stage release.</li>
-        <li>Implemented optimized git strategies to get rid of 90% merge conflicts and version release managements.</li>
+        <li>Implemented new UI features and components while resolving existing UI bugs before stage release.</li>
+        <li>Initiated CI/CD pipelines using Jenkins and Github Actions to ensure efficient software deployment.</li>
       </ul>
     ),
   },
