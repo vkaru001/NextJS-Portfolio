@@ -13,10 +13,11 @@ const TAB_DATA = [
         <li><b>Web Technologies:</b> HTML, CSS, JavaScript & TypeScript</li>
         <li><b>FrameWorks:</b> ReactJS, NextJS & NodeJS</li>
         <li><b>APIs: </b>Rest API, GraphQL & OpenAI API</li>
-        <li><b>DataBases:</b> PostgreSQL & MySQL</li>
+        <li><b>DataBases:</b> MongoDB, PostgreSQL & MySQL</li>
         <li><b>Cloud:</b> Azure, AWS & Docker</li>
-        <li><b>Version Control & Tools: </b>GitHub, Visual Studio, JIRA, Jenkins, pgAdmin, & Jest</li>
-        <li><b>Machine Learning Techniques: </b> Linear Discriminant Analysis, Random Forest, Logistic Regression, Scikit, Seaborn, Tesseract, Pandas</li>
+        <li><b>Version Control & Tools: </b>GitHub, Visual Studio, JIRA, Jenkins, pgAdmin, AEM, & Jest</li>
+        <li><b>Analytical skills: </b>PowerBI, Qlik Sense, Tableau, Microsoft 365, Power Apps</li>
+        <li><b>Machine Learning Techniques: </b> Linear Discriminant Analysis, Random Forest, Naive Bayies, Logistic Regression, Scikit, Seaborn, Tesseract, Pandas</li>
       </ul>
     ),
   },
@@ -52,7 +53,7 @@ const AboutSection = () => {
         <Image src="/images/about.png" width={500} height={500} />
          <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <p className="text-base lg:text-lg"> 
-          Hello! I am a Front End developer with a passion for creating interactive and responsive web applications. I have 3 years of experience in web development and expertise in JavaScript and React. Strong debugging skills in large codebases. Experience working in Agile Software Development. I am a quick earner and I am always looking to expand my knowledge and skill set. Dedicated team player who firmly believes that a team can accomplish significant success together. Proactive in taking responsibility for new initiatives. Worked across all functional areas of software development.As a Web Developer, I am always obsessed with minor details, learning new technologies, and building innovative features in an application.
+          Hello! I am a Front End developer with a passion for creating interactive and responsive web applications. I have 3 years of experience in web development and expertise in JavaScript and React. Strong debugging skills in large codebases. Experience working in Agile Software Development. I am a quick learner and always looking to expand my knowledge and skill set into vast domains. Dedicated team player who firmly believes that a team can accomplish significant success together. Proactive in taking responsibility for new initiatives. Worked across all functional areas of software development.As a Frontend Developer, I am always obsessed with minor details, learning new technologies, and building innovative features in an application.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

@@ -10,12 +10,22 @@ const TAB_DATA = [
     period:"(Jan 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Implemented many upgrades for “HIMS” and “LIS” website’s UI with ReactJS and Node.js, aligning with the business requirements with enhancing the site’s responsiveness.</li>
-        <li>Assisted in creating multiple dynamic widgets to improve the capture and display of doctor availability, reducing appointment booking approval time for customers by 40%.</li>
-        <li>Achieved a 30% reduction in website load times through performance optimization techniques.</li>
-        <li>Integrated the customer services chatbot functionality, resulting in a 15% increase in customer support. </li>
-        <li>Monitored performance of the REST API and optimized it as required, led to 20% improvement in API speed and 30% decrease in API calls using Redis cache and managed databases using MySQL. </li>
-        <li>Active code reviewer and managed many JIRA issues, reviewing the most changes on my team Quarter Over Quarter (QoQ) and focused on performance and cross platform browser and device support.</li>
+
+•	
+•	
+•	
+•	•	Developed multiple proof-of-concepts (POCs) by building various login portals and Product UI builder screens for “HIMS” web applications using HTML, CSS3, JavaScript, and React.
+•	Implemented new UI features and components enhancing user engagement and boosting user retention by 15% on release management.
+•	Initiated CI/CD (Continuous Integration / Continuous Deployment) pipelines using Jenkins that reduced deployment time by 30%, leading to a more efficient software deployment process.
+
+
+
+        <li>Developed internal portals for Hospital's "HIMS" and "LIS" websites' UI with ReactJS, JavaScript and Python, and leveraged AWS services (EC2, S3, RDS) for hosting and managing web applications, ensuring scalability and reliability. </li>
+        <li>Implemented OAuth 2.0 authentication flow using AWS Cognito User Pools, enabling secure user login and access to third-party APIs. </li>
+        <li>Monitored and Optimized REST API performance, led to 20% spike in API speed & 30% lower API calls using Redis cache and MongoDB.</li>
+        <li>Achieved 30% reduction in website load times through performance optimization techniques, best user experience via enhancing usability. </li>
+        <li>Created dynamic widgets to improve doctor availability, reducing appointment booking time by 40%. </li>
+        <li>Conducted code debugging, resolved many JIRA issues, and focused on cross-browser compatibility, unit testing and integration testing and application support.</li>
       </ul>
     ),
   },
@@ -25,9 +35,9 @@ const TAB_DATA = [
     period:"(Jun 2019 - Dec 2019)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed multiple proof-of-concepts (POCs) by building various login portals and Product UI builder screens for Outpatient Management’s web applications using HTML, CSS3, JavaScript, and React.</li>
-        <li>Implemented new UI features and components while resolving existing UI bugs before stage release.</li>
-        <li>Initiated CI/CD pipelines using Jenkins and Github Actions to ensure efficient software deployment.</li>
+        <li>Developed multiple proof-of-concepts (POCs) by building various login portals and Product UI builder screens for "HIMS" web applications using HTML, CSS3, JavaScript, and React.</li>
+        <li>Implemented new UI features and components enhancing user engagement and boosting user retention by 15% on release management.</li>
+        <li>Initiated CI/CD pipelines using Jenkins and Github Actions that reduced deployment time by 30%, ensuring efficient software deployment.</li>
       </ul>
     ),
   },
