@@ -51,9 +51,11 @@ const AboutSection = () => {
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about.png" width={500} height={500} />
-         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+         <div className="mt-4 md:mt-0 text-justify flex flex-col h-full">
           <p className="text-base lg:text-lg"> 
-          Hello! I am a Front End developer with a passion for creating interactive and responsive web applications. I have 3 years of experience in web development and expertise in JavaScript and React. Strong debugging skills in large codebases. Experience working in Agile Software Development. I am a quick learner and always looking to expand my knowledge and skill set into vast domains. Dedicated team player who firmly believes that a team can accomplish significant success together. Proactive in taking responsibility for new initiatives. Worked across all functional areas of software development.As a Frontend Developer, I am always obsessed with minor details, learning new technologies, and building innovative features in an application.
+          <p>Hello! I am a passionate Front-End Engineer with over 3 years of expertise in crafting exceptional digital experiences. My passion lies in blending technical mastery with a deep understanding of user needs to deliver seamless and engaging web applications.</p> 
+          <p>What sets me apart is my unique combination of technical prowess and exceptional soft skills. With proficiency in ReactJS, NextJS, NodeJS, and more, I pride myself on delivering robust, scalable solutions that incorporate the latest UI/UX design principles. I am also actively involved in solving problems on LeetCode, honing my data structures and algorithms skills in Java to continuously strengthen my problem-solving abilities.</p>
+          <p> Beyond coding, I excel in collaborative environments, communicating effectively across teams and adapting seamlessly to evolving requirements. My creative problem-solving mindset allows me to approach challenges from fresh perspectives, consistently driving innovative solutions. Deeply committed to continuous learning, I actively explore emerging technologies to push boundaries and exceed expectations. If you are seeking a skilled, dedicated Front-End Engineer to bring your vision to life, I would be honored to discuss how my expertise can contribute to your success.</p>
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
