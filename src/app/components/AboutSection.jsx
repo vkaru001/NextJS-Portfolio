@@ -58,13 +58,13 @@ const AboutSection = () => {
           <p> Beyond coding, I excel in collaborative environments, communicating effectively across teams and adapting seamlessly to evolving requirements. My creative problem-solving mindset allows me to approach challenges from fresh perspectives, consistently driving innovative solutions. Deeply committed to continuous learning, I actively explore emerging technologies to push boundaries and exceed expectations. If you are seeking a skilled, dedicated Front-End Engineer to bring your vision to life, I would be honored to discuss how my expertise can contribute to your success.</p>
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("skills")}
               active={tab === "skills"}
             >
               {" "}
               Skills{" "}
-            </TabButton>
+            </TabButton> */}
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}

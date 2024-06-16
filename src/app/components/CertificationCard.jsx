@@ -2,11 +2,11 @@ import React from "react";
 import {  EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const CertificationCard = ({ imgUrl, Organization, Role, Period, Description , previewUrl }) => {
+const CertificationCard = ({ imgUrl, Organization, Role , previewUrl }) => {
   return (
     <div>
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
+        className="h-52 md:h-70 rounded-t-xl relative group"
         style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
@@ -22,8 +22,8 @@ const CertificationCard = ({ imgUrl, Organization, Role, Period, Description , p
       <div className="text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4 col-2">
         <h5 className="text-xl font-semibold mb-2">{Organization}</h5>
         <p className="text-[#ADB7BE]">{Role}</p>
-        <p className="text-[#ADB7BE]">{Period}</p>
-        <p className="text-[#ADB7BE]">{Description}</p>
+        {/* <p className="text-[#ADB7BE]">{Period}</p> */}
+        {/* <p className="text-[#ADB7BE]">{Description}</p> */}
       </div>
     </div>
   );

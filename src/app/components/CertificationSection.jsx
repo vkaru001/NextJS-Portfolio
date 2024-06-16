@@ -9,32 +9,29 @@ const CertificationData = [
       
     {
       id: 1,
-      Organization: "Coursera Cerified",
-      Role: "Front_End Development with React",
+      Organization: "Coursera",
+      Role: "Frontend Development with React",
       image: "/images/projects/Coursera.jpeg",
-      Period:"",
-      Description:"",
+
       tag: ["All","Web Technologies"],
 
       previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
     },
     {
       id: 2,
-      Organization: "Microsoft Cerified",
+      Organization: "Microsoft",
       Role: "Azure Fundamentals",
       image: "/images/projects/Microsoft.jpeg",
-      Period:"",
-      Description:"",
+
       tag: ["All","Cloud"],
 
       previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/8A907186F21854E5?sharingId=60D137E327399C2A",
     },
     {
       id: 3,
-      Organization: "Microsoft Certified",
+      Organization: "Microsoft",
       Role: "Azure Data Fundamentals",
-      Period:"",
-      Description:"",
+ 
       image: "/images/projects/Microsoft.jpeg",
       tag: ["All","Cloud"],
 
@@ -42,10 +39,9 @@ const CertificationData = [
     },
     {
       id: 4,
-      Organization: "Udemy Cetified",
+      Organization: "Udemy",
       Role: "Python Mega Course",
-      Period:"",
-      Description:"",
+
       image: "/images/projects/Udemy.jpeg",
       tag: ["All","Languages"],
 
@@ -99,7 +95,7 @@ const CertificationData = [
         />
         
       </div>
-      <ul ref={ref} className="grid md:grid-cols-3 gap-10 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-4 gap-10 md:gap-12">
         {filteredCertifications.map((Certifications, index) => (
           <motion.li
             key={index}
@@ -112,8 +108,8 @@ const CertificationData = [
               key={Certifications.id}
               Organization={Certifications.Organization}
               Role={Certifications.Role}
-              Period={Certifications.Period}
-              Description={Certifications.Description}
+              // Period={Certifications.Period}
+              // Description={Certifications.Description}
               imgUrl={Certifications.image}
 
               previewUrl={Certifications.previewUrl}
