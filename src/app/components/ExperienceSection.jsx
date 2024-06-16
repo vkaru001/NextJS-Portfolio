@@ -11,7 +11,7 @@ const TAB_DATA = [
     period: "(Jan 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed Web Applications for Hospital's "HIMS" and "LIS" websites' UI with <b>ReactJS, JavaScript, and Python</b> and
+        <li>Developed Web Applications for Hospitals HIMS and LIS websites UI with <b>ReactJS, JavaScript, and Python</b> and
 leveraged <b>AWS services (EC2, S3, RDS)</b> for hosting and managing SEO friendly web applications, ensuring scalability.</li>
         <li>Implemented <b>OAuth 2.0 authentication</b> flow using <b>AWS Cognito</b> User Pools, enabling secure user access to 3rd-party APIs. </li>
         <li>Monitored and Optimized <b>REST API</b> performance, led to 20% spike in API speed & 30% lower API calls using <b>Redis cache and MongoDB.</b></li>
@@ -28,7 +28,7 @@ leveraged <b>AWS services (EC2, S3, RDS)</b> for hosting and managing SEO friend
     period:"(Jun 2019 - Dec 2019)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and JavaScript</b>, ensuring a user-friendly experience. •</li>
+        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and JavaScript</b>, ensuring a user-friendly experience.</li>
         <li>Designed new UI features and components using <b>React & Bootstrap</b> to create visually appealing designs for UI, enhancing user engagement.</li>
         <li>Initiated CI/CD pipelines using <b>Jenkins and Github Actions</b>, reduced deployment time by 30%, leading to an efficient software deployment.</li>
 
