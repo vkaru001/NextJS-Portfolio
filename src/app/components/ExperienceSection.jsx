@@ -5,29 +5,33 @@ import TabButton from "./TabButton";
 
 const TAB_DATA = [
   {
-    title: "Front-End Developer",
-    id: "Full-Time",
-    period:"(Jan 2020 - July 2022)",
+    organization: "Suvarna TechnoSoft",
+    role: "Frontend Developer | Hyderabad, IND",
+    id: "fulltime",
+    period: "(Jan 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed internal portals for Hospitals HIMS and LIS websites UI with ReactJS, JavaScript and Python, and leveraged AWS services like, EC2, S3, RDS for hosting and managing web applications, ensuring scalability and reliability. </li>
-        <li>Implemented OAuth 2.0 authentication flow using AWS Cognito User Pools, enabling secure user login and access to third-party APIs. </li>
-        <li>Monitored and Optimized REST API performance, led to 20% spike in API speed & 30% lower API calls using Redis cache and MongoDB.</li>
-        <li>Achieved 30% reduction in website load times through performance optimization techniques, best user experience via enhancing usability. </li>
-        <li>Created dynamic widgets to improve doctor availability, reducing appointment booking time by 40%. </li>
-        <li>Conducted code debugging, resolved many JIRA issues, and focused on cross-browser compatibility, unit testing, and application support.</li>
+        <li>Developed Web Applications for Hospital's "HIMS" and "LIS" websites' UI with <b>ReactJS, JavaScript, and Python</b> and
+leveraged <b>AWS services (EC2, S3, RDS)</b> for hosting and managing SEO friendly web applications, ensuring scalability.</li>
+        <li>Implemented <b>OAuth 2.0 authentication</b> flow using <b>AWS Cognito</b> User Pools, enabling secure user access to 3rd-party APIs. </li>
+        <li>Monitored and Optimized <b>REST API</b> performance, led to 20% spike in API speed & 30% lower API calls using <b>Redis cache and MongoDB.</b></li>
+        <li>Boosted website performance by 30% via optimization techniques, ensuring optimal user experience, and used <b>GA4</b> for website analytics.</li>
+        <li>Created dynamic widgets to improve doctor availability, reducing appointment booking time by 40%.</li>
+        <li>Conducted code reviews, resolved <b>JIRA</b> issues, and focused on troubleshooting, cross-platform browser, unit testing and application support.</li>
       </ul>
     ),
   },
   {
-    title: "Web Developer",
-    id: "Intern",
+    organization: "Suvarna TechnoSoft",
+    role: "Web Developer | Hyderabad, IND",
+    id: "internship",
     period:"(Jun 2019 - Dec 2019)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed multiple POCs by building various login portals and Product UI screens for HIMS web applications using HTML, CSS3, JavaScript, and React.</li>
-        <li>Implemented new UI features and components enhancing user engagement and boosting user retention by 15% on release management.</li>
-        <li>Initiated CI CD pipelines using Jenkins and Github Actions that reduced deployment time by 30%, ensuring efficient software deployment.</li>
+        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and JavaScript</b>, ensuring a user-friendly experience. •</li>
+        <li>Designed new UI features and components using <b>React & Bootstrap</b> to create visually appealing designs for UI, enhancing user engagement.</li>
+        <li>Initiated CI/CD pipelines using <b>Jenkins and Github Actions</b>, reduced deployment time by 30%, leading to an efficient software deployment.</li>
+
       </ul>
     ),
   },
@@ -35,7 +39,7 @@ const TAB_DATA = [
 ];
 
 const ExperienceSection = () => {
-  const [tab, setTab] = useState("Full-Time");
+  const [tab, setTab] = useState("fulltime");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -45,43 +49,40 @@ const ExperienceSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+    <section className="text-white" id="experience">
+      {/* <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Experiences
-      </h2>
-      <Image src="/images/projects/Suvarna.jpeg" width={300} height={300} />
-      {/* <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-         */}
-        <div className="mt-4 md:mt-0 text-justify flex flex-col h-full">
-          {/* <h2 className="text-4xl font-bold text-white mb-4">3 Years of Experience</h2> */}
-          {/* <p className="text-base lg:text-lg">
+      </h2> */}
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image src="/images/projects/Suvarna.jpeg" width={300} height={300} />
+         <div className="mt-4 md:mt-0 text-justify flex flex-col h-full">
           
-          </p> */}
           <div className="flex flex-row justify-start mt-8">
             <TabButton
-              selectTab={() => handleTabChange("Full-Time")}
-              active={tab === "Full-Time"}
+              selectTab={() => handleTabChange("fulltime")}
+              active={tab === "fulltime"}
             >
               {" "}
               Full-Time{" "}
             </TabButton>
             <TabButton
-              selectTab={() => handleTabChange("Intern")}
-              active={tab === "Intern"}
+              selectTab={() => handleTabChange("internship")}
+              active={tab === "internship"}
             >
               {" "}
-              Intern{" "}
+              Internship{" "}
             </TabButton>
             
           </div>
           <div className="mt-8">
-            <h1><b>{TAB_DATA.find((t) => t.id === tab).title}</b></h1>
+            <h1><strong className="text-2xl">{TAB_DATA.find((t) => t.id === tab).organization}</strong></h1>
+            <h6><b className="text-white text-md">{TAB_DATA.find((t) => t.id === tab).role}</b></h6>
             <small>{TAB_DATA.find((t) => t.id === tab).period}</small>
+            {/* <small><i>{TAB_DATA.find((t) => t.id === tab).location}</i></small> */}
             {TAB_DATA.find((t) => t.id === tab).content}
-            
           </div>
         </div>
-      {/* </div> */}
+      </div>
     </section>
   );
 };

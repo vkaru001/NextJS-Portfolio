@@ -17,13 +17,13 @@ const achievementsList = [
   },
   {
     metric: "Skills",
-    value: "10",
+    value: "20",
     postfix: "+",
   },
   {
-    prefix: "~",
     metric: "Years",
     value: "3",
+    postfix: "+",
   },
   {
     metric: "Certifications",

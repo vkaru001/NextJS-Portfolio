@@ -24,14 +24,14 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Food Ordering Website",
+    title: "GrabIt. A Food Ordering Website",
     description: (
       <ul className="list-disc pl-2">
          <b>Technologies Used:</b>
         <li>MERN Stack, REST API, Stripe API</li>
         <b>Features:</b>
         <li><b>Frontend:</b> User Authentication, Order Placement, Shopping cart, Payment Processing</li>
-        <li><b>Admin Panel:</b>Food Items and Order Status Management</li>
+        <li><b>Admin Panel: </b>Food Items and Order Status Management</li>
       </ul>
     ),
     image: "/images/projects/GrabIt.png",
@@ -40,22 +40,20 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Codex - Chat Application",
+    title: "E-Commerce Website",
     description: (
       <ul className="list-disc pl-2">
          <b>Technologies Used:</b>
-        <li>HTML, CSS, JavaScript, Node.js, and OpenAI APIs</li>
+        <li>MERN Stack, REST API, MongoDB, JWT</li>
         <b>Features:</b>
-        <li>GPT-3 model API for interacting with AI</li>
-        <li>Resembles CHATGPT</li>
-        
+        <li><b>Frontend:</b> User Authentication, Shopping cart, Responsive UI</li>
+        <li><b>Admin Panel: </b>Inventory & Offers Management</li>
       </ul>
     ),
-    image: "/images/projects/Codex.jpeg",
+    image: "/images/projects/e-commerce.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/vkaru001/Open-AI-Codex",
+    gitUrl: "https://github.com/vkaru001/GrabIt",
   },
-  
   {
     id: 4,
     title: "License Plate Recognition",
@@ -74,9 +72,28 @@ const projectsData = [
     gitUrl: "https://github.com/vkaru001/License-Plate-Recognition",
 
   },
-
   {
     id: 5,
+    title: "Codex - Chat Application",
+    description: (
+      <ul className="list-disc pl-2">
+         <b>Technologies Used:</b>
+        <li>HTML, CSS, JavaScript, Node.js, and OpenAI APIs</li>
+        <b>Features:</b>
+        <li>GPT-3 model API for interacting with AI</li>
+        <li>Resembles CHATGPT</li>
+        
+      </ul>
+    ),
+    image: "/images/projects/Codex.jpeg",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/vkaru001/Open-AI-Codex",
+  },
+  
+  
+
+  {
+    id: 6,
     title: "React Restaurant Application",
     description: (
       <ul className="list-disc pl-2">

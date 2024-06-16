@@ -94,7 +94,7 @@ const skillsData = [
   {
     id: 15,
     title: "Git",
-    image: "/images/projects/Git1.png",
+    image: "/images/projects/git1.png",
     tag: ["All", "Buildtools"],
   },
   {

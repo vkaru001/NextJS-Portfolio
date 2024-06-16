@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 import CertificationSection from "./components/CertificationSection";
  import ExperiencesSection from "./components/ExperienceSection";
+ import Experience2Section from "./components/Experience2Section";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
+        <Experience2Section />
         <ExperiencesSection/> 
         <SkillsSection />
         <ProjectsSection />
