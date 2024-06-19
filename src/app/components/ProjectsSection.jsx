@@ -40,6 +40,22 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "AI Flashcards Application",
+    description: (
+      <ul className="list-disc pl-2">
+         <b>Technologies Used:</b>
+        <li>NextJS, TypeScript, REST API, PostgreSQL, OpenAI API, Drizzle ORM, NodeJS</li>
+        <b>Features:</b>
+        <li>OpenAI API & Stripe API Integration, User Dashboard, Responsive UI</li>
+        <li>Google OAuth 2.0 Authentication, Contribution grid</li>
+      </ul>
+    ),
+    image: "/images/projects/qu.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/vkaru001/QuizGPT",
+  },
+  {
+    id: 4,
     title: "E-Commerce Website",
     description: (
       <ul className="list-disc pl-2">
@@ -55,7 +71,7 @@ const projectsData = [
     gitUrl: "https://github.com/vkaru001/GrabIt",
   },
   {
-    id: 4,
+    id: 5,
     title: "License Plate Recognition",
     description: (
       <ul className="list-disc pl-2">
@@ -73,7 +89,7 @@ const projectsData = [
 
   },
   {
-    id: 5,
+    id: 6,
     title: "Codex - Chat Application",
     description: (
       <ul className="list-disc pl-2">
@@ -93,7 +109,7 @@ const projectsData = [
   
 
   {
-    id: 6,
+    id: 7,
     title: "React Restaurant Application",
     description: (
       <ul className="list-disc pl-2">
@@ -156,13 +172,13 @@ const ProjectsSection = () => {
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
-          <motion.li
-            key={index}
-            // variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+          // <motion.li
+          //   key={index}
+          //   // variants={cardVariants}
+          //   initial="initial"
+          //   animate={isInView ? "animate" : "initial"}
+          //   transition={{ duration: 0.3, delay: index * 0.4 }}
+          // >
             <ProjectCard
               key={project.id}
               title={project.title}
@@ -173,7 +189,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               
             />
-          </motion.li>
+          // </motion.li>
         ))}
       </ul>
     </section>
