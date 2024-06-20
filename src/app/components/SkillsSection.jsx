@@ -142,7 +142,7 @@ const skillsData = [
   {
     id: 23,
     title: "Jira",
-    image: "/images/projects/Drizzle.png",
+    image: "/images/projects/Jira.jpg",
     tag: ["All", "Othertools"],
   },
   {
