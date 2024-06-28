@@ -15,8 +15,9 @@ const TAB_DATA = [
 leveraged <b>AWS services (EC2, S3, Lambda, API Gateway, RDS)</b> for hosting and managing SEO friendly web applications, ensuring scalability.</li>
         <li>Implemented <b>OAuth 2.0 authentication</b> flow using <b>AWS Cognito</b> User Pools, enabling secure user access to 3rd-party APIs. </li>
         <li>Monitored and Optimized <b>REST API</b> performance, led to 20% spike in API speed & 30% lower API calls using <b>Redis cache and MongoDB.</b></li>
-        <li>Boosted website performance by 30% via optimization techniques, and used <b>Dynatrace</b> for website analytics.</li>
-        <li>Created interactive dashboards and reports using <b>Power BI</b> providing actionable insights that led to 20% hike in operational efficiency.</li>
+        <li>Boosted website performance by 30% via optimization techniques, ensuring optimal user experience, and used <b>Dynatrace</b> for website analytics.</li>
+        <li>Created dynamic widgets to improve doctor availability, reducing appointment booking time by 40%.</li>
+        <li>Conducted code reviews, resolved <b>JIRA</b> issues, and focused on troubleshooting, cross-platform browser, unit testing and application support.</li>
       </ul>
     ),
   },
@@ -27,7 +28,7 @@ leveraged <b>AWS services (EC2, S3, Lambda, API Gateway, RDS)</b> for hosting an
     period:"(Jun 2019 - Dec 2019)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and PHP</b>, ensuring a user-friendly experience.</li>
+        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and JavaScript</b>, ensuring a user-friendly experience.</li>
         <li>Designed new UI features and components using <b>React & Bootstrap</b> to create visually appealing designs for UI, enhancing user engagement.</li>
         <li>Initiated CI/CD pipelines using <b>Jenkins and Github Actions</b>, reduced deployment time by 30%, leading to an efficient software deployment.</li>
 

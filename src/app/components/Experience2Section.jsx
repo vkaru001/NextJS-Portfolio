@@ -15,10 +15,11 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Built an e-commerce website with <b>React, TypeScript, Node.js,</b> and used <b>AEM</b> for content management to improve code reusability and
 reduce development time by 20%.</li>
-        <li>Maintained <b>RESTful APIs, using Node.js, and PostgreSQL</b>, handling 500+ requests per minute with 99.9% uptime.</li>
+        <li>Maintained <b>GraphQL APIs, using Node.js, and PostgreSQL</b>, handling 500+ requests per minute with 99.9% uptime.</li>
+        <li>Integrated <b>D3.js</b> with react for data transformation and preprocessing from various sources (JSON, XML, CSV), ensuring actionable insights.</li>
         <li>Implemented <b>pagination, split coding, lazy loading techniques,</b> reducing initial load times by 35% and improving page load speeds by 25%.</li>
-        <li>Automated Business workflows using <b>Python</b>, reducing manual processing by 60% and avoiding human error in data handling.</li>
-        <li>Integrated <b>SAP ERP</b> systems with business team, synchronizing inventory, orders, and customer data, reduced order processing time by 20%.</li>
+        <li>Created automated end-to-end test scripts using <b>Cypress</b>, reducing production bugs by 25%.</li>
+        <li>Developed and maintained a CI/CD pipeline using <b>Jenkins and Github actions</b>, resulting in a 50% reduction in deployment time and managed this web application on <b>Kubernetes</b> improving scalability by 25%.</li>
         <li>Worked with cross-functional teams in daily scrum meetings, ensuring timely delivery and resulting in a 95% customer satisfaction rate.</li>
       </ul>
     ),
