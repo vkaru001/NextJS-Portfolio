@@ -39,7 +39,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg"> 
           <p>Hello! I am a passionate Front-End Engineer with over 3 years of expertise in crafting exceptional digital experiences. My passion lies in blending emerging technologies like <b>AI and ML</b> with user centric web applications.</p> 
           <p>What sets me apart is my unique combination of technical expertise and exceptional soft skills. With proficiency in ReactJS, NextJS, NodeJS, and more, I pride myself on delivering robust, scalable solutions that incorporate the latest UI/UX design principles. I am also actively involved in solving problems on LeetCode, honing my data structures and algorithms skills in Java to continuously strengthen my problem-solving abilities.</p>
-          <p> Beyond coding, I excel in collaborative environments, communicating effectively across teams and adapting seamlessly to evolving requirements. My creative problem-solving mindset allows me to approach challenges from fresh perspectives, consistently driving innovative solutions. Deeply committed to continuous learning, I actively explore emerging technologies to push boundaries and exceed expectations. If you are seeking a skilled Front-End Engineer, I would be honored to discuss how my expertise can contribute to your success.</p>
+          <p> Beyond coding, I excel in collaborative environments, communicating effectively across teams and adapting seamlessly to evolving requirements. If you are seeking a skilled Front-End Engineer, I would be honored to discuss how my expertise can contribute to your success.</p>
           </p>
           <div className="flex flex-row justify-start mt-8">
             {/* <TabButton
