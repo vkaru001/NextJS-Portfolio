@@ -8,29 +8,15 @@ const TAB_DATA = [
     organization: "Suvarna TechnoSoft",
     role: "Frontend Developer | Hyderabad, IND",
     id: "fulltime",
-    period: "(Jan 2020 - July 2022)",
+    period: "(June 2019 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed Web Applications for Hospitals HIMS and LIS websites UI with <b>ReactJS, JavaScript, and Python</b> and
+        <li>Developed Web Applications for Hospitals HIMS and LIS websites UI with <b>ReactJS, JavaScript</b> and
 leveraged <b>AWS services (EC2, S3, Lambda, API Gateway, RDS)</b> for hosting and managing SEO friendly web applications, ensuring scalability.</li>
         <li>Implemented <b>OAuth 2.0 authentication</b> flow using <b>AWS Cognito</b> User Pools, enabling secure user access to 3rd-party APIs. </li>
-        <li>Monitored and Optimized <b>REST API</b> performance, led to 20% spike in API speed & 30% lower API calls using <b>Redis cache and MongoDB.</b></li>
+        <li>Developed RESTful microservices using <b>Java and Spring Boot, with Redis cache and MongoDB,</b> led 35% faster response times.</li>
         <li>Boosted website performance by 30% via optimization techniques, ensuring optimal user experience, and used <b>Dynatrace</b> for website analytics.</li>
-        <li>Created dynamic widgets to improve doctor availability, reducing appointment booking time by 40%.</li>
-        <li>Conducted code reviews, resolved <b>JIRA</b> issues, and focused on troubleshooting, cross-platform browser, unit testing and application support.</li>
-      </ul>
-    ),
-  },
-  {
-    organization: "Suvarna TechnoSoft",
-    role: "Web Developer | Hyderabad, IND",
-    id: "internship",
-    period:"(Jun 2019 - Dec 2019)",
-    content: (
-      <ul className="list-disc pl-2">
-        <li>Built and maintained a <b>WordPress</b> website for the hospital using <b>HTML5, CSS3, and JavaScript</b>, ensuring a user-friendly experience.</li>
-        <li>Designed new UI features and components using <b>React & Bootstrap</b> to create visually appealing designs for UI, enhancing user engagement.</li>
-        <li>Initiated CI/CD pipelines using <b>Jenkins and Github Actions</b>, reduced deployment time by 30%, leading to an efficient software deployment.</li>
+        <li>Integrated <b>Maven with Jenkins</b> CI/CD pipeline for backend services, enhancing build automation and dependency management.</li>
 
       </ul>
     ),
@@ -64,13 +50,6 @@ const ExperienceSection = () => {
             >
               {" "}
               Full-Time{" "}
-            </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("internship")}
-              active={tab === "internship"}
-            >
-              {" "}
-              Internship{" "}
             </TabButton>
             
           </div>
