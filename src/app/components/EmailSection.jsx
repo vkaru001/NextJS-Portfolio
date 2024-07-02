@@ -53,7 +53,7 @@ const EmailSection = () => {
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
           I&apos;m currently looking for new opportunities,you can always
-          reach me out on +1 305-427-1702. You can also e-mail me on <Link href="mailto:vkaru001@gmail.com">vkaru001@gmail.com</Link></p>
+          reach me out on +1 305-427-1701. You can also e-mail me on <Link href="mailto:karumuruvyshnavi2000@gmail.com">vkaru001@gmail.com</Link></p>
         <div className="socials flex flex-row gap-3">
           <Link href="https://github.com/dashboard">
             <Image src={GithubIcon} alt="Github Icon" />
