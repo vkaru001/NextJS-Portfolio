@@ -13,12 +13,11 @@ const TAB_DATA = [
     period:"(Feb 2024 - Present)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Built an e-commerce website with <b>React, TypeScript,</b> and used <b>AEM</b> for content management to improve code reusability.</li>
-        <li>Maintained <b>RESTful APIs, using Node.js, and PostgreSQL</b>, handling 500+ requests per minute with 99.9% uptime.</li>
-        <li>Implemented <b>pagination, split coding, lazy loading techniques,</b> reducing initial load times by 35% and improving page load speeds by 25%.</li>
-        <li>•	Automated business workflows using <b>Python,</b> reducing manual processing by 60% and avoiding human error in data handling.</li>
-        <li>Developed and maintained a CI/CD pipeline using <b>Jenkins and Github actions</b>, resulting in a 50% reduction in deployment time and managed this web application on <b>Kubernetes</b> improving scalability by 25%.</li>
-        <li>Worked with cross-functional teams in daily scrum meetings, ensuring timely delivery and resulting in a 95% customer satisfaction rate.</li>
+      <li>Spearheaded the development of an e-commerce platform using <b>React</b> and integrating SEO best practices resulting in improved search engine rankings and a 30% increase in organic traffic.</li>
+      <li>Managed <b>REST APIs with Node.js and PostgreSQL,</b> handling 500+ requests per minute with 99.9% availability.</li>
+      <li>Enhanced UI/UX design and accessibility compliance (WCAG 2.0), leading to visually appealing and web interfaces.</li>
+      <li>Implemented analytics to track user sales trends, and performance metrics, leading to a 15% increase in sales and targeted marketing strategies.</li>
+      <li>Initiated CI/CD pipelines with <b>Jenkins and GitHub Actions for Kubernetes</b> based web application deployment.</li>
       </ul>
     ),
   },

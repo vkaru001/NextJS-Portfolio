@@ -11,13 +11,11 @@ const TAB_DATA = [
     period: "(June 2019 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed Web Applications for Hospitals HIMS and LIS websites UI with <b>ReactJS, JavaScript</b> and
-leveraged <b>AWS services (EC2, S3, Lambda, API Gateway, RDS)</b> for hosting and managing SEO friendly web applications, ensuring scalability.</li>
-        <li>Implemented <b>OAuth 2.0 authentication</b> flow using <b>AWS Cognito</b> User Pools, enabling secure user access to 3rd-party APIs. </li>
-        <li>Developed RESTful microservices using <b>Java and Spring Boot, with Redis cache and MongoDB,</b> led 35% faster response times.</li>
-        <li>Boosted website performance by 30% via optimization techniques, ensuring optimal user experience, and used <b>Dynatrace</b> for website analytics.</li>
-        <li>Integrated <b>Maven with Jenkins</b> CI/CD pipeline for backend services, enhancing build automation and dependency management.</li>
-
+        <li>Developed responsive service-oriented architecture (SOA) using <b>React.js</b> for healthcare providers.</li>
+        <li>Implemented OAuth 2.0 authentication using AWS Cognito, with secure access to 3rd party APIs and protecting sensitive information. </li>
+        <li>Optimized and managed <b>RESTful microservices in API Gateway</b> to secure API connections, resulting in 50% lesser API calls using <b>Redis Cache,</b> enhancing backend efficiency.</li>
+        <li>Improved automation and dependency management with <b>Maven and Jenkins,</b> which brought about 40% shorter deployment times, enhancing overall project efficiency and expediting delivery.</li>
+        <li>Collaborated with UX designers and product managers to optimize user experiences, integrating feedback forums.</li>
       </ul>
     ),
   },
