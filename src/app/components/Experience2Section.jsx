@@ -13,11 +13,13 @@ const TAB_DATA = [
     period:"(Feb 2024 - Present)",
     content: (
       <ul className="list-disc pl-2">
-      <li>Spearheaded the development of an e-commerce platform using <b>React</b> and integrating SEO best practices resulting in improved search engine rankings and a 30% increase in organic traffic.</li>
-      <li>Managed <b>REST APIs with Node.js and PostgreSQL,</b> handling 500+ requests per minute with 99.9% availability.</li>
-      <li>Enhanced UI/UX design and accessibility compliance (WCAG 2.0), leading to visually appealing and web interfaces.</li>
-      <li>Implemented analytics to track user sales trends, and performance metrics, leading to a 15% increase in sales and targeted marketing strategies.</li>
-      <li>Initiated CI/CD pipelines with <b>Jenkins and GitHub Actions for Kubernetes</b> based web application deployment.</li>
+      <li>Spearheaded the development of an e-commerce platform using React, TypeScript and integrating SEO best practices resulting in improved search engine rankings and a 30% increase in organic traffic.</li>
+      <li>Boosted frontend performance by implementing code splitting and lazy loading, improving user interaction speed by 35%.</li>
+      <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
+      <li>Optimized UI/UX workflows using Figma, reducing design-to-development time by 30% and increasing design consistency by 45%.</li>
+      <li>Conducted code reviews, resolved JIRA issues, and focused on debugging, cross-platform browser, and unit testing using Jest.</li>
+      <li>Initiated CI/CD pipelines with Jenkins for Kubernetes based web application deployment and used GitHub for version control, applying branching strategies, streamlined team collaboration.</li>     
+      <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development, resulting in a 20% increase in user satisfaction.</li>
       </ul>
     ),
   },

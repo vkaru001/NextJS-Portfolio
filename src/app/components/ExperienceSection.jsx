@@ -11,11 +11,15 @@ const TAB_DATA = [
     period: "(June 2019 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed responsive service-oriented architecture (SOA) using <b>React.js</b> for healthcare providers.</li>
-        <li>Implemented OAuth 2.0 authentication using AWS Cognito, with secure access to 3rd party APIs and protecting sensitive information. </li>
-        <li>Optimized and managed <b>RESTful microservices in API Gateway</b> to secure API connections, resulting in 50% lesser API calls using <b>Redis Cache,</b> enhancing backend efficiency.</li>
-        <li>Improved automation and dependency management with <b>Maven and Jenkins,</b> which brought about 40% shorter deployment times, enhancing overall project efficiency and expediting delivery.</li>
-        <li>Collaborated with UX designers and product managers to optimize user experiences, integrating feedback forums.</li>
+
+
+        <li>Developed and maintained multiple React, JavaScript ES6+ user interfaces for healthcare insurance providers.</li>
+        <li>Integrated AWS cloud services (Cognito, S3, EC2, Lambda) for enhanced API security, and to handle 3X more concurrent users. </li>
+        <li>Built 5+ custom WordPress plugins using PHP, enhancing site functionality and increasing user engagement by 25%.</li>
+        <li>Improved PostgreSQL database performance by 40% for high-volume data by optimizing schemas, creating stored procedures, and refining complex SQL queries for processing over 50K transactions.</li>
+        <li>Managed RESTful microservices with Java and Spring Boot, applying Redis caching strategies reducing API calls by 50% and used Dynatrace for user behavior tracking and performance metrics, improved marketing analytics and 15% more users.</li>
+        <li>Refined automation dependency management with Maven & Jenkins, led to 40% shorter deployment times.</li>
+        <li>Engaged in all phases of SDLC using Agile Scrum methodologies, including gathering requirements, designing, analyzing, and developing code, to create accessible and high-quality software adhering to WCAG 2.0 guidelines.</li>
       </ul>
     ),
   },
