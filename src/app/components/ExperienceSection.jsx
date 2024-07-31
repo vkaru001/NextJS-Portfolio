@@ -6,7 +6,7 @@ import TabButton from "./TabButton";
 const TAB_DATA = [
   {
     organization: "Suvarna TechnoSoft",
-    role: "Frontend Developer | Hyderabad, IND",
+    role: "Full Stack Web Developer | Hyderabad, IND",
     id: "fulltime",
     period: "(June 2019 - July 2022)",
     content: (

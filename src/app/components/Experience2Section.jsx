@@ -7,7 +7,7 @@ const TAB_DATA = [
   
   { 
     organization:"Fiona Solutions",
-    role: "Full-Stack Web Developer | Houston, TX",
+    role: "Frontend Web Developer | Houston, TX",
     // location: "Sugar, TX",
     id: "internship",
     period:"(Feb 2024 - Present)",
