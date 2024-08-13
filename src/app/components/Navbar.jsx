@@ -36,7 +36,7 @@ const Navbar = () => {
           className="text-2xl md:text-5xl text-white font-semibold"
         >
 
-            <Image src={Logo} alt="Logo" width = {48} height = {48}/>
+            <Image src={Logo} alt="Logo" width = {65} height = {65}/>
           
         </Link>
         <div className="mobile-menu block md:hidden">
