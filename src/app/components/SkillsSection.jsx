@@ -2,160 +2,172 @@
 import React, { useState, useRef } from "react";
 import SkillsCard from "./SkillsCard";
 import SkillsTag from "./SkillsTag";
-import { motion, useInView } from "framer-motion";
+import {  useInView } from "framer-motion";
 
 const skillsData = [
   {
     id: 1,
     title: "Java",
-    image: "/images/projects/file.png",
+    image: "/images/projects/java-svgrepo-com.svg",
     tag: ["All", "Languages"],
   },
   {
     id: 2,
     title: "Python",
-    image: "/images/projects/python.png",
+    image: "/images/projects/python-svgrepo.svg",
     tag: ["All", "Languages"],
   },
   {
     id: 3,
     title: "JavaScript",
-    image: "/images/projects/JS.png",
+    image: "/images/projects/javascript-svgrepo-com.svg",
     tag: ["All", "Languages"],
   },
   {
     id: 4,
     title: "TypeScript",
-    image: "/images/projects/TS.png",
+    image: "/images/projects/typescript-svgrepo-com.svg",
     tag: ["All", "Languages"],
   },
   {
     id: 5,
     title: "ReactJS",
-    image: "/images/projects/react12.png",
+    image: "/images/projects/react-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   
   {
     id: 6,
     title: "NextJS",
-    image: "/images/projects/next.js.png",
+    image: "/images/projects/nextjs.svg",
     tag: ["All", "Frontend"],
   },
   
   {
     id: 7,
     title: "MySQL",
-    image: "/images/projects/SQL1.png",
+    image: "/images/projects/mysql-logo-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 8,
     title: "HTML",
-    image: "/images/projects/HTML1.png",
+    image: "/images/projects/html-5-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
     id: 9,
     title: "Azure",
-    image: "/images/projects/Azure1.png",
+    image: "/images/projects/azure-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
   {
     id: 10,
     title: "AWS",
-    image: "/images/projects/AWS.png",
+    image: "/images/projects/aws.svg",
     tag: ["All", "Buildtools"],
   },
   {
     id: 11,
     title: "Redis",
-    image: "/images/projects/redis.png",
+    image: "/images/projects/redis-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 12,
     title: "PostgreSQL",
-    image: "/images/projects/postgresql.png",
+    image: "/images/projects/postgresql-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 13,
     title: "MongoDB",
-    image: "/images/projects/mongodb.png",
+    image: "/images/projects/mongo-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 14,
     title: "GraphQL",
-    image: "/images/projects/graphql.png",
+    image: "/images/projects/graphql-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 15,
-    title: "Git",
-    image: "/images/projects/git1.png",
+    title: "GitHub",
+    image: "/images/projects/github.svg",
     tag: ["All", "Buildtools"],
   },
   {
     id: 16,
-    title: "Kubernates",
-    image: "/images/projects/Kubernates.png",
-    tag: ["All", "Buildtools"],
+    title: "Linux",
+    image: "/images/projects/linux-svgrepo-com.svg",
+    tag: ["All", "Othertools"],
   },
   {
     id: 17,
     title: "Jenkins",
-    image: "/images/projects/Jenkins.png",
+    image: "/images/projects/jenkins-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
   {
     id: 18,
     title: "CSS3",
-    image: "/images/projects/CSS.png",
+    image: "/images/projects/css-3-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
     id: 19,
     title: "Bootstrap",
-    image: "/images/projects/Bootstrap.png",
+    image: "/images/projects/bootstrap-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
     id: 20,
     title: "TailwindCSS",
-    image: "/images/projects/TailwindCSS.png",
+    image: "/images/projects/tailwindcss-icon-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
     id: 21,
-    title: "Drizzle ORM",
-    image: "/images/projects/Drizzle.png",
+    title: "Spring Boot",
+    image: "/images/projects/spring-boot-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 22,
     title: "Vercel",
-    image: "/images/projects/vercel.png",
+    image: "/images/projects/vercel-icon-svgrepo-com.svg",
     tag: ["All", "Othertools"],
   },
   {
     id: 23,
     title: "Jira",
-    image: "/images/projects/Jira.jpg",
+    image: "/images/projects/jira-svgrepo-com.svg",
     tag: ["All", "Othertools"],
   },
   {
     id: 24,
     title: "NodeJS",
-    image: "/images/projects/Nodejs.png",
+    image: "/images/projects/nodejs.svg",
     tag: ["All", "Backend"],
   },
   {
     id: 25,
-    title: "WordPress",
-    image: "/images/projects/wordpress.png",
+    title: "Figma",
+    image: "/images/projects/figma-svgrepo-com.svg",
     tag: ["All", "Frontend"],
+  },
+  {
+    id: 26,
+    title: "RESTful API",
+    image: "/images/projects/rest-api-blue-logo-22099.svg",
+    tag: ["All", "Backend"],
+  },
+  {
+    id: 27,
+    title: "Maven",
+    image: "/images/projects/maven-svgrepo-com.svg",
+    tag: ["All", "Buildtools"],
   },
 ];
 
@@ -216,21 +228,21 @@ const SkillsSection = () => {
         
       </div>
       <ul ref={ref} className="grid md:grid-cols-8 gap-3 md:gap-4">
-        {filteredSkills.map((skill,index) => (
-          <motion.li
-            key={index}
-            // variants={cardVariants}
-            initial="initial"
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
+        {filteredSkills.map((skill) => (
+          // <motion.li
+          //   key={index}
+          //   // variants={cardVariants}
+          //   initial="initial"
+          //   animate={isInView ? "animate" : "initial"}
+          //   transition={{ duration: 0.3, delay: index * 0.4 }}
+          // >
             <SkillsCard
               key={skill.id}
               title={skill.title} 
               imgUrl={skill.image}
               
             />
-           </motion.li>
+          //  </motion.li>
         ))}
       </ul>
     </section>
