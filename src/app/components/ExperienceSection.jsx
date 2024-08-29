@@ -11,15 +11,12 @@ const TAB_DATA = [
     period: "(June 2019 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-
-
-        <li>Developed and maintained multiple React, JavaScript ES6+ user interfaces for healthcare insurance providers.</li>
+        <li>Developed and maintained multiple React, JavaScript ES6+, and Adobe Experience Manager user interfaces for healthcare insurance providers.</li>
+        <li>Optimized UI/UX workflows using Adobe Illustrator and Figma, adhering to WCAG 2.0 standards, reducing design-to-development time by 30% and improving design consistency by 45%.</li>
         <li>Integrated AWS cloud services (Cognito, S3, EC2, Lambda) for enhanced API security, and to handle 3X more concurrent users. </li>
-        <li>Built 5+ custom WordPress plugins using PHP, enhancing site functionality and increasing user engagement by 25%.</li>
-        <li>Improved PostgreSQL database performance by 40% for high-volume data by optimizing schemas, creating stored procedures, and refining complex SQL queries for processing over 50K transactions.</li>
-        <li>Managed RESTful microservices with Java and Spring Boot, applying Redis caching strategies reducing API calls by 50% and used Dynatrace for user behavior tracking and performance metrics, improved marketing analytics and 15% more users.</li>
+        <li>Implemented MongoDB to store and manage NoSQL patients’ data, resulting in a 35% improvement in data retrieval speed and enabling API with real-time updates to insurance claims processing.</li>
+        <li>Managed RESTful microservices with Java 2EE and Spring Boot, applying Redis caching strategies reducing API calls by 50% and used Dynatrace for user behavior tracking and performance metrics, improved marketing analytics and 15% more users.</li>
         <li>Refined automation dependency management with Maven & Jenkins, led to 40% shorter deployment times.</li>
-        <li>Engaged in all phases of SDLC using Agile Scrum methodologies, including gathering requirements, designing, analyzing, and developing code, to create accessible and high-quality software adhering to WCAG 2.0 guidelines.</li>
       </ul>
     ),
   },

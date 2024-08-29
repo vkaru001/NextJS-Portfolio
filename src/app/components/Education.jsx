@@ -6,28 +6,26 @@ import TabButton from "./TabButton";
 const TAB_DATA = [
   
   { 
-    organization:"Fiona Solutions",
-    role: "Frontend Web Developer | Houston, TX",
+    organization:"Florida International University",
+    role: "Computer & Information Sciences",
     // location: "Sugar, TX",
-    id: "internship",
-    period:"(Feb 2024 - Present)",
+    id: "Masters",
+    period:"(Aug 2022 - Dec 2023)",
     content: (
       <ul className="list-disc pl-2">
-      <li>Spearheaded the development of an e-commerce platform using React, TypeScript and integrating SEO best practices resulting in improved search engine rankings and a 30% increase in organic traffic.</li>
-      <li>Boosted frontend performance by implementing code splitting and lazy loading, improving user interaction speed by 35%.</li>
-      <li>Developed responsive web interfaces using Tailwind CSS, improving user experience across devices by 40%.</li>
-      <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
-      <li>Conducted code reviews, resolved JIRA issues, and performed unit testing using Jest, ensuring robust UI development.</li>
-      <li>Initiated CI/CD pipelines with Jenkins for GitHub, increasing release frequency from bi-weekly to daily.</li>     
-      <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development, resulting in a 20% increase in user satisfaction.</li>
+    <ul><b>Courses Taken:</b></ul>
+      <li>Introduction to Algorithms</li>
+      <li>Database Management System</li>
+      <li>Operation Systems</li>
+      <li>Web Technologies</li>
       </ul>
     ),
   },
   
 ];
 
-const Experience2Section = () => {
-  const [tab, setTab] = useState("internship");
+const Education = () => {
+  const [tab, setTab] = useState("Masters");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -37,12 +35,12 @@ const Experience2Section = () => {
   };
 
   return (
-    <section className="text-white" id="experience2">
+    <section className="text-white" id="education">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Experiences
+        My Education
       </h2>
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/projects/fiona.jpeg" width={300} height={300} />
+        <Image src="/images/projects/fiu.png" width={300} height={300} />
          <div className="mt-4 md:mt-0 text-justify flex flex-col h-full">
           
           <div className="flex flex-row justify-start mt-8">
@@ -54,11 +52,11 @@ const Experience2Section = () => {
               Full-Time{" "}
             </TabButton> */}
             <TabButton
-              selectTab={() => handleTabChange("internship")}
-              active={tab === "internship"}
+              selectTab={() => handleTabChange("Masters")}
+              active={tab === "Masters"}
             >
               {" "}
-              Internship{" "}
+              Masters{" "}
             </TabButton>
             
           </div>
@@ -75,4 +73,4 @@ const Experience2Section = () => {
   );
 };
 
-export default Experience2Section;
+export default Education;

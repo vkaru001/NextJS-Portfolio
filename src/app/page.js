@@ -9,6 +9,7 @@ import AchievementsSection from "./components/AchievementsSection";
 import CertificationSection from "./components/CertificationSection";
  import ExperiencesSection from "./components/ExperienceSection";
  import Experience2Section from "./components/Experience2Section";
+ import Education from "./components/Education"
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
+        <Education />
         <Experience2Section />
         <ExperiencesSection/> 
         <SkillsSection />
