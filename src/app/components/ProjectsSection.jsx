@@ -72,6 +72,26 @@ const projectsData = [
   },
   {
     id: 5,
+    title: "ElectraInsight: Data Analysis for EV",
+    description: (
+      <ul className="list-disc pl-2">
+         <b>Technologies Used:</b>
+        <li>Excel, Power BI, DAX</li>
+        <b>Features:</b>
+        <li>Interactive Dashboard</li>
+        <li>Quick Action filters & Comparisions</li>
+        <li> Dynamic Parameters</li>
+        <li> Insights into BEV usage </li>
+        
+        
+      </ul>
+    ),
+    image: "/images/projects/46E155C0-7034-4FBA-B51D-F9031F364239_4_5005_c.jpeg",
+    tag: ["All", "Data Analysis"],
+    gitUrl: "/images/projects/Picture1.png",
+  },
+  {
+    id: 6,
     title: "License Plate Recognition",
     description: (
       <ul className="list-disc pl-2">
@@ -83,13 +103,13 @@ const projectsData = [
         
       </ul>
     ),
-    image: "/images/projects/LPR.png",
+    image: "/images/projects/lpr.jpeg",
     tag: ["All", "ML"],
-    gitUrl: "https://github.com/vkaru001/License-Plate-Recognition",
+    gitUrl: "/images/projects/LPR.png",
 
   },
   {
-    id: 6,
+    id: 7,
     title: "Codex - Chat Application",
     description: (
       <ul className="list-disc pl-2">
@@ -109,7 +129,7 @@ const projectsData = [
   
 
   {
-    id: 7,
+    id: 8,
     title: "React Restaurant Application",
     description: (
       <ul className="list-disc pl-2">
@@ -125,6 +145,7 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/vkaru001/Confusion",
   },
+  
 
   
   
@@ -166,19 +187,24 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
+          name="Data Analysis"
+          isSelected={tag === "Data Analysis"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
           name="ML"
           isSelected={tag === "ML"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
-          // <motion.li
-          //   key={index}
-          //   // variants={cardVariants}
-          //   initial="initial"
-          //   animate={isInView ? "animate" : "initial"}
-          //   transition={{ duration: 0.3, delay: index * 0.4 }}
-          // >
+          <motion.li
+            key={index}
+            // variants={cardVariants}
+            initial="initial"
+            animate={isInView ? "animate" : "initial"}
+            transition={{ duration: 0.3, delay: index * 0.4 }}
+          >
             <ProjectCard
               key={project.id}
               title={project.title}
@@ -189,7 +215,7 @@ const ProjectsSection = () => {
               imgUrl={project.image}
               
             />
-          // </motion.li>
+           </motion.li>
         ))}
       </ul>
     </section>
