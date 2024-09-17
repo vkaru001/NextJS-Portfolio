@@ -24,9 +24,9 @@ const HeroSection = () => {
               sequence={[
                 "Vyshnavi Karumuru",
                 1000,
-                "Web Developer",
-                1000,
                 "Front-End Developer",
+                1000,
+                "Full-Stack Web Developer",
                 1000,
     
               ]}
@@ -36,7 +36,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          A Developer who writes clean, elegant, efficient code which builds accessible digital experience for Web.
+          Passionate about turning ideas into engaging digital experiences by crafting web solutions, integrating with ML and AI.
           </p>
           <div>
             <Link
