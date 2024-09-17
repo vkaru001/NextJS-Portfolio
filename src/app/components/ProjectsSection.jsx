@@ -105,7 +105,7 @@ const projectsData = [
     ),
     image: "/images/projects/lpr.jpeg",
     tag: ["All", "ML"],
-    gitUrl: "/images/projects/LPR.png",
+    gitUrl: "https://github.com/vkaru001/License-Plate-Recognition",
 
   },
   {

@@ -17,7 +17,7 @@ const achievementsList = [
   },
   {
     metric: "Skills",
-    value: "20",
+    value: "30",
     postfix: "+",
   },
   {
