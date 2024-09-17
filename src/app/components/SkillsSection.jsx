@@ -169,6 +169,24 @@ const skillsData = [
     image: "/images/projects/maven-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
+  {
+    id: 28,
+    title: "Tableau",
+    image: "/images/projects/tableau-icon-svgrepo-com.svg",
+    tag: ["All", "Othertools"],
+  },
+  {
+    id: 29,
+    title: "Docker",
+    image: "/images/projects/docker-svgrepo-com.svg",
+    tag: ["All", "Buildtools"],
+  },
+  {
+    d: 30,
+    title: "Kubernetes",
+    image: "/images/projects/kubernetes-svgrepo-com.svg",
+    tag: ["All", "Buildtools"],
+  },
 ];
 
 const SkillsSection = () => {

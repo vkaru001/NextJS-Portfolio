@@ -13,13 +13,17 @@ const TAB_DATA = [
     period:"(Feb 2024 - Present)",
     content: (
       <ul className="list-disc pl-2">
-      <li>Spearheaded the development of an e-commerce platform using React, TypeScript and integrating SEO best practices resulting in improved search engine rankings and a 30% increase in organic traffic.</li>
-      <li>Boosted frontend performance by implementing code splitting and lazy loading, improving user interaction speed by 35%.</li>
-      <li>Developed responsive web interfaces using Tailwind CSS, improving user experience across devices by 40%.</li>
+
+      <li>Spearheaded the development of an e-commerce web application using React, TypeScript, with Tailwind CSS and optimized UI/UX workflows
+using Figma, on complience with WCAG 2.1 standards, reducing design-to-development time by 30%.</li>
+
+      <li>Boosted frontend performance by implementing code splitting, pagination and lazy loading, improving user interaction speed by 35%.</li>
+      <li>Maintained RESTful APIs with Swagger, reducing over and under-fetching issues, improved frontend performance by 25%.</li>
       <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
+      <li>Designed Tableau dashboards for tracking sales trends, and performance metrics, for targeted marketing strategies.</li>
       <li>Conducted code reviews, resolved JIRA issues, and performed unit testing using Jest, ensuring robust UI development.</li>
-      <li>Initiated CI/CD pipelines with Jenkins for GitHub, increasing release frequency from bi-weekly to daily.</li>     
-      <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development, resulting in a 20% increase in user satisfaction.</li>
+      <li>Initiated CI/CD pipelines with Jenkins and Docker for Kubernetes based application deployment.</li>     
+      <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development.</li>
       </ul>
     ),
   },
