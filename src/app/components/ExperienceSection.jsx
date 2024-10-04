@@ -11,12 +11,12 @@ const TAB_DATA = [
     period: "(June 2019 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed dynamic React based UIs like EHRs, Doctor & Patient Portals with HTML5, CSS3, JavaScript ES6+, and
-Bootstrap for healthcare providers, using Redux, React Hooks for state management.</li>
-        <li>Integrated AWS (Cognito, S3, EC2, Lambda) for enhanced API security, and to handle 3X more concurrent users. </li>
-        <li>Improved PostgreSQL database performance, by refining complex SQL queries for efficient data flow.</li>
-        <li>Managed secure Java 2EE applications using Spring Boot, and RESTful microservices with Redis caching, reducing API
-calls by 50% and tracked performance with Dynatrace for marketing analytics.</li>
+        <li>Developed dynamic React based UIs like EHRs, Doctor & Patient Portals with HTML5, CSS3, JavaScript ES6+, and Bootstrap for healthcare provider.</li>
+        <li>Implemented Single Sign-On (SSO) for server-side solutions using OAuth 2.0 and AWS Cognito, enhancing secure access points. </li>
+        <li>Implemented MongoDB to store and manage NoSQL patients’ data, resulting in a 35% improvement in data retrieval speed and enabling API with real-time updates. </li>
+        <li>Managed secure Java 2EE applications using Spring Boot, and use RESTful microservices with Redis caching, reducing API
+calls by 50% and tracked performance with Dynatrace.</li>
+        <li>Engineered sophisticated multithreading and concurrency solutions to manage high-traffic scenarios during healthcare processes with optimal responsiveness.</li>
         <li>Refined automation and dependency management with Maven & Jenkins, reducing deployment times by 40%.</li>
         <li>Engaged in all phases of Software Development Life Cycle using Agile methodologies, on complience with HIPPA guidelines.</li>
       </ul>

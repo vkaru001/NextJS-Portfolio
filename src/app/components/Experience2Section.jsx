@@ -20,7 +20,7 @@ using Figma, on complience with WCAG 2.1 standards, reducing design-to-developme
       <li>Boosted frontend performance by implementing code splitting, pagination and lazy loading, improving user interaction speed by 35%.</li>
       <li>Maintained RESTful APIs with Swagger, reducing over and under-fetching issues, improved frontend performance by 25%.</li>
       <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
-      <li>Designed Tableau dashboards for tracking sales trends, and performance metrics, for targeted marketing strategies.</li>
+      <li>Integrated D3.js for data transformation and preprocessing from various sources (JSON, XML, CSV), ensuring actionable insights.</li>
       <li>Conducted code reviews, resolved JIRA issues, and performed unit testing using Jest, ensuring robust UI development.</li>
       <li>Initiated CI/CD pipelines with Jenkins and Docker for Kubernetes based application deployment.</li>     
       <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development.</li>

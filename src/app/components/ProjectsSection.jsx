@@ -76,7 +76,7 @@ const projectsData = [
     description: (
       <ul className="list-disc pl-2">
          <b>Technologies Used:</b>
-        <li>Excel, Power BI, DAX</li>
+        <li>Excel, Tableau, DAX</li>
         <b>Features:</b>
         <li>Interactive Dashboard</li>
         <li>Quick Action filters & Comparisions</li>
