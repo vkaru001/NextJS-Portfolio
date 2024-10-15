@@ -5,44 +5,53 @@ import CertificationTag from "./CertificationTag";
 
 import { motion, useInView } from "framer-motion";
 const CertificationData = [
-    
-      
     {
       id: 1,
+      Organization: "Microsoft Certified",
+      Role: "AZ-204: Azure Developer Associate",
+      image: "/images/projects/AZ-204.svg",
+
+      tag: ["All","Web Technologies","Cloud"],
+
+      previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/CA48AE8C041D3A52?sharingId=60D137E327399C2A",
+    },
+      
+    {
+      id: 2,
       Organization: "Coursera",
       Role: "Frontend Development with React",
-      image: "/images/projects/Coursera.jpeg",
+      image: "/images/projects/coursera-svgrepo-com.svg",
 
       tag: ["All","Web Technologies"],
 
       previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
     },
     {
-      id: 2,
-      Organization: "Microsoft",
-      Role: "Azure Fundamentals",
-      image: "/images/projects/Microsoft.jpeg",
+      id: 3,
+      Organization: "Microsoft Certified",
+      Role: "AZ-900: Azure Fundamentals",
+      image: "/images/projects/az-900.svg",
 
       tag: ["All","Cloud"],
 
       previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/8A907186F21854E5?sharingId=60D137E327399C2A",
     },
     {
-      id: 3,
-      Organization: "Microsoft",
-      Role: "Azure Data Fundamentals",
+      id: 4,
+      Organization: "Microsoft Certified",
+      Role: "DP-900: Azure Data Fundamentals",
  
-      image: "/images/projects/Microsoft.jpeg",
+      image: "/images/projects/az-900.svg",
       tag: ["All","Cloud"],
 
-      previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/DF5EFAA47C9CF06A?sharingId=60D137E327399C2A",
+      previewUrl: "/images/projects/az-900.svg",
     },
     {
-      id: 4,
+      id: 5,
       Organization: "Udemy",
       Role: "Python Mega Course",
 
-      image: "/images/projects/Udemy.jpeg",
+      image: "/images/projects/udemy-svgrepo-com.svg",
       tag: ["All","Languages"],
 
       previewUrl: "https://www.udemy.com/certificate/UC-06e15267-9008-4101-ad39-79355709615d/",
@@ -61,10 +70,10 @@ const CertificationData = [
     Certifications.tag.includes(tag)
   );
 
-  // const cardVariants = {
-  //   initial: { y: 50, opacity: 0 },
-  //   animate: { y: 0, opacity: 1 },
-  // };
+  const cardVariants = {
+    initial: { y: 50, opacity: 0 },
+    animate: { y: 0, opacity: 1 },
+  };
 
   return (
     <section id="Certifications">
@@ -99,7 +108,7 @@ const CertificationData = [
         {filteredCertifications.map((Certifications, index) => (
           <motion.li
             key={index}
-            // variants={cardVariants}
+            variants={cardVariants}
             initial="initial"
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
