@@ -14,7 +14,7 @@ const TAB_DATA = [
         <li>Developed dynamic React based UIs like EHRs, Doctor & Patient Portals with HTML5, CSS3, JavaScript ES6+, and Bootstrap for healthcare provider.</li>
         <li>Implemented Single Sign-On (SSO) for server-side solutions using OAuth 2.0 and AWS Cognito, enhancing secure access points. </li>
         <li>Implemented MongoDB to store and manage NoSQL patients’ data, resulting in a 35% improvement in data retrieval speed and enabling API with real-time updates. </li>
-        <li>Managed secure Java 2EE applications using Spring Boot, and use RESTful microservices with Redis caching, reducing API
+        <li>Managed secure Java 2EE applications, and use RESTful microservices with Redis caching, reducing API
 calls by 50% and tracked performance with Dynatrace.</li>
         <li>Engineered sophisticated multithreading and concurrency solutions to manage high-traffic scenarios during healthcare processes with optimal responsiveness.</li>
         <li>Refined automation and dependency management with Maven & Jenkins, reducing deployment times by 40%.</li>

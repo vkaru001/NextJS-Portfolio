@@ -14,11 +14,11 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
 
-      <li>Spearheaded the development of an e-commerce web application using React, TypeScript, with Tailwind CSS and optimized UI/UX workflows
+      <li>Spearheaded the development of an e-commerce web application using React, TypeScript, and optimized UI/UX workflows
 using Figma, on complience with WCAG 2.1 standards, reducing design-to-development time by 30%.</li>
 
       <li>Boosted frontend performance by implementing code splitting, pagination and lazy loading, improving user interaction speed by 35%.</li>
-      <li>Maintained RESTful APIs with Swagger, reducing over and under-fetching issues, improved frontend performance by 25%.</li>
+      <li>•	Migrated 15+ REST APIs to GraphQL, cutting down API request complexity by 50% and enabling flexible data retrieval.</li>
       <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
       <li>Integrated D3.js for data transformation and preprocessing from various sources (JSON, XML, CSV), ensuring actionable insights.</li>
       <li>Conducted code reviews, resolved JIRA issues, and performed unit testing using Jest, ensuring robust UI development.</li>

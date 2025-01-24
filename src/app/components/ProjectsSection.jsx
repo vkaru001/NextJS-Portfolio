@@ -56,6 +56,22 @@ const projectsData = [
   },
   {
     id: 4,
+    title: "Student Performance Analysis in MOOC’s",
+    description: (
+      <ul className="list-disc pl-2">
+         <b>Technologies Used:</b>
+        <li>NextJS, TypeScript, REST API, PostgreSQL, OpenAI API, Drizzle ORM, NodeJS</li>
+        <b>Features:</b>
+        <li>OpenAI API & Stripe API Integration, User Dashboard, Responsive UI</li>
+        <li>Google OAuth 2.0 Authentication, Contribution grid</li>
+      </ul>
+    ),
+    image: "/images/projects/SPA1.jpg",
+    tag: ["All", "Web","ML"],
+    gitUrl: "https://colab.research.google.com/drive/1rp2ZB5wK-Uz7Lzp6bHLkF2GYAJhmbj17#scrollTo=n0-f4KHjD0Qo",
+  },
+  {
+    id: 5,
     title: "E-Commerce Website",
     description: (
       <ul className="list-disc pl-2">
@@ -71,7 +87,7 @@ const projectsData = [
     gitUrl: "https://github.com/vkaru001/GrabIt",
   },
   {
-    id: 5,
+    id: 6,
     title: "ElectraInsight: Data Analysis for EV",
     description: (
       <ul className="list-disc pl-2">
@@ -91,7 +107,7 @@ const projectsData = [
     gitUrl: "/images/projects/Picture1.png",
   },
   {
-    id: 6,
+    id: 7,
     title: "License Plate Recognition",
     description: (
       <ul className="list-disc pl-2">
@@ -109,7 +125,7 @@ const projectsData = [
 
   },
   {
-    id: 7,
+    id: 8,
     title: "Codex - Chat Application",
     description: (
       <ul className="list-disc pl-2">
@@ -129,7 +145,7 @@ const projectsData = [
   
 
   {
-    id: 8,
+    id: 9,
     title: "React Restaurant Application",
     description: (
       <ul className="list-disc pl-2">
