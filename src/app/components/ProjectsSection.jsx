@@ -86,28 +86,9 @@ const projectsData = [
     tag: ["All", "Web"],
     gitUrl: "https://github.com/vkaru001/GrabIt",
   },
+  
   {
     id: 6,
-    title: "ElectraInsight: Data Analysis for EV",
-    description: (
-      <ul className="list-disc pl-2">
-         <b>Technologies Used:</b>
-        <li>Excel, Tableau, DAX</li>
-        <b>Features:</b>
-        <li>Interactive Dashboard</li>
-        <li>Quick Action filters & Comparisions</li>
-        <li> Dynamic Parameters</li>
-        <li> Insights into BEV usage </li>
-        
-        
-      </ul>
-    ),
-    image: "/images/projects/46E155C0-7034-4FBA-B51D-F9031F364239_4_5005_c.jpeg",
-    tag: ["All", "Data Analysis"],
-    gitUrl: "/images/projects/Picture1.png",
-  },
-  {
-    id: 7,
     title: "License Plate Recognition",
     description: (
       <ul className="list-disc pl-2">
@@ -125,7 +106,7 @@ const projectsData = [
 
   },
   {
-    id: 8,
+    id: 7,
     title: "Codex - Chat Application",
     description: (
       <ul className="list-disc pl-2">
@@ -145,7 +126,7 @@ const projectsData = [
   
 
   {
-    id: 9,
+    id: 8,
     title: "React Restaurant Application",
     description: (
       <ul className="list-disc pl-2">

@@ -14,11 +14,20 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about.png" width={500} height={500} />
          <div className="mt-4 md:mt-0 text-justify flex flex-col h-full">
-          <p className="text-base lg:text-lg"> 
-          <p>Hello! I am a passionate Front-End Engineer with over 3 years of expertise in crafting exceptional digital experiences. My passion lies in blending emerging technologies like <b>AI and ML</b> with user centric web applications.</p> 
-          <p>What sets me apart is my unique combination of technical expertise and exceptional soft skills. With proficiency in ReactJS, NextJS, NodeJS, and more, I pride myself on delivering robust, scalable solutions that incorporate the latest UI/UX design principles. I am also actively involved in solving problems on LeetCode, honing my data structures and algorithms skills in Java to continuously strengthen my problem-solving abilities.</p>
-          <p> Beyond coding, I excel in collaborative environments, communicating effectively across teams and adapting seamlessly to evolving requirements. If you are seeking a skilled Front-End Engineer, I would be honored to discuss how my expertise can contribute to your success.</p>
-          </p>
+         <ul className="list-disc pl-2">
+         <li>Experienced Frontend Developer specializing in Angular, React, TypeScript, JavaScript ES6+, and AWS, with a 5+ years of strong background in building scalable and modular web applications.</li>
+         <li>Proficient in developing reusable Angular modules, components, services, and utilities to ensure code modularity and maintainability.</li>
+         <li>Experienced in AngularJS development, incorporating dependency injection, custom directives, filters, and AJAX-based data fetching to enhance legacy applications.</li>
+         <li>Expertise in state management using NgRx (Store, Actions, Selectors, and Effects)  and Redux/Context API for React, for efficient data flow and handling of asynchronous operations.</li>
+         <li>Hands-on experience in cloud platforms with 2+ years of experience in AWS (EC2, S3, Lambda, Cloud Front, Cognito) to develop and deploy scalable, high-performance applications, ensuring reliability and cost efficiency.</li>
+         <li>Expertise in managing Angular component lifecycle hooks (e.g., ngOnInit, ngAfterViewInit, ngOnChanges, ngOnDestroy) to optimize application performance and behavior.</li>
+         <li>Proficient in AngularJS and Angular, skilled in developing dynamic UI components using Angular templates, markup, expressions, and layout structures (FLEX/GRID).</li>
+         <li>Skilled in performance optimization, utilizing AOT compilation, lazy loading, OnPush change detection, and trackBy to enhance application speed and responsiveness.</li>
+         <li>Integrated RESTful APIs endpoints, enabling real-time data retrieval and manipulation for up-to-date application insights.</li>
+         <li>Proven experience in Agile methodologies and CI/CD practices, ensuring efficient development workflows and fast-paced releases by implementing CI/CD pipelines using Jenkins, GitHub, and Docker for streamlined deployments.</li>
+
+      
+      </ul>
           {/* <div className="flex flex-row justify-start mt-8">
             {/* <TabButton
               selectTab={() => handleTabChange("skills")}

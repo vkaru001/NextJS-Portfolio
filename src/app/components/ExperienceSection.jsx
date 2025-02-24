@@ -6,19 +6,24 @@ import TabButton from "./TabButton";
 const TAB_DATA = [
   {
     organization: "Suvarna TechnoSoft",
-    role: "Full Stack Web Developer | Hyderabad, IND",
+    role: "Frontend Developer | Hyderabad, IND",
     id: "fulltime",
-    period: "(June 2019 - July 2022)",
+    period: "(Jan 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed dynamic React based UIs like EHRs, Doctor & Patient Portals with HTML5, CSS3, JavaScript ES6+, and Bootstrap for healthcare provider.</li>
-        <li>Implemented Single Sign-On (SSO) for server-side solutions using OAuth 2.0 and AWS Cognito, enhancing secure access points. </li>
-        <li>Implemented MongoDB to store and manage NoSQL patients’ data, resulting in a 35% improvement in data retrieval speed and enabling API with real-time updates. </li>
-        <li>Managed secure Java 2EE applications, and use RESTful microservices with Redis caching, reducing API
-calls by 50% and tracked performance with Dynatrace.</li>
-        <li>Engineered sophisticated multithreading and concurrency solutions to manage high-traffic scenarios during healthcare processes with optimal responsiveness.</li>
-        <li>Refined automation and dependency management with Maven & Jenkins, reducing deployment times by 40%.</li>
-        <li>Engaged in all phases of Software Development Life Cycle using Agile methodologies, on complience with HIPPA guidelines.</li>
+        <li>Developed dynamic UI components using Angular, TypeScript, and JavaScript ES6+, ensuring seamless user interactions with MVC capability.</li>
+        <li>Supported client queries for monthly statements and enabled transaction sorting based on custom criteria using AngularJS, incorporating data binding, filters, and custom sorter functions.</li>
+        <li>Created custom directives and filters in AngularJS with built-in $http services, streamlining data retrieval through dependency injection.</li>
+        <li>Utilized AngularJS dependency injection to manage and inject various services, including custom services and reusable directives, optimizing application modularity.</li>
+        <li>Implemented client-side functionalities such as hide/show elements, event handling, and AJAX calls using AngularJS and jQlite, improving UI responsiveness.</li>
+        <li>Developed and deployed scalable Angular applications on AWS, utilizing S3 for static hosting, CloudFront for content delivery, and Cognito for user authentication, enhancing security and reducing latency by 30%.</li>
+        <li>Improved the performance of the app by implementing change detection strategies and trackBy to enhance DOM rendering efficiency.</li>
+        <li>Used Angular’s built-in PreloadAllModules and developed custom preloading strategies to optimize resource loading in the background while maintaining app responsiveness.</li>
+        <li>Conducted unit testing and debugging to ensure a bug-free experience across multiple browsers, improving application stability</li>
+        <li>Worked in Agile teams, collaborating with backend developers, UX/UI designers, and product managers to optimize the user experience.</li>
+        <li>Actively participated in conflict resolution and discussions, ensuring that team disagreements were addressed constructively and that the best technical decisions were made without impacting team morale.</li>
+        <li>Participated actively in peer code reviews, providing constructive feedback to ensure code quality, adherence to best practices, and consistency across the project while learning from others' code.</li>
+
       </ul>
     ),
   },

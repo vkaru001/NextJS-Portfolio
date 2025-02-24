@@ -38,8 +38,8 @@ const skillsData = [
   
   {
     id: 6,
-    title: "NextJS",
-    image: "/images/projects/nextjs.svg",
+    title: "AngularJS",
+    image: "/images/projects/angular-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   
@@ -79,114 +79,84 @@ const skillsData = [
     image: "/images/projects/postgresql-svgrepo-com.svg",
     tag: ["All", "Backend"],
   },
+  
   {
     id: 13,
-    title: "MongoDB",
-    image: "/images/projects/mongo-svgrepo-com.svg",
-    tag: ["All", "Backend"],
-  },
-  {
-    id: 14,
-    title: "GraphQL",
-    image: "/images/projects/graphql-svgrepo-com.svg",
-    tag: ["All", "Backend"],
-  },
-  {
-    id: 15,
     title: "GitHub",
     image: "/images/projects/github.svg",
     tag: ["All", "Buildtools"],
   },
   {
-    id: 16,
+    id: 14,
     title: "Linux",
     image: "/images/projects/linux-svgrepo-com.svg",
     tag: ["All", "Othertools"],
   },
   {
-    id: 17,
+    id: 15,
     title: "Jenkins",
     image: "/images/projects/jenkins-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
   {
-    id: 18,
+    id: 16,
     title: "CSS3",
     image: "/images/projects/css-3-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
-    id: 19,
+    id: 17,
     title: "Bootstrap",
     image: "/images/projects/bootstrap-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
-    id: 20,
+    id: 18,
     title: "TailwindCSS",
     image: "/images/projects/tailwindcss-icon-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
+  
   {
-    id: 21,
-    title: "Spring Boot",
-    image: "/images/projects/spring-boot-svgrepo-com.svg",
-    tag: ["All", "Backend"],
-  },
-  {
-    id: 22,
+    id: 19,
     title: "Vercel",
     image: "/images/projects/vercel-icon-svgrepo-com.svg",
     tag: ["All", "Othertools"],
   },
   {
-    id: 23,
+    id: 20,
     title: "Jira",
     image: "/images/projects/jira-svgrepo-com.svg",
     tag: ["All", "Othertools"],
   },
+  
   {
-    id: 24,
-    title: "NodeJS",
-    image: "/images/projects/nodejs.svg",
-    tag: ["All", "Backend"],
-  },
-  {
-    id: 25,
+    id: 21,
     title: "Figma",
     image: "/images/projects/figma-svgrepo-com.svg",
     tag: ["All", "Frontend"],
   },
   {
-    id: 26,
+    id: 22,
     title: "RESTful API",
     image: "/images/projects/rest-api-blue-logo-22099.svg",
     tag: ["All", "Backend"],
   },
+  
+  
   {
-    id: 27,
-    title: "Maven",
-    image: "/images/projects/maven-svgrepo-com.svg",
-    tag: ["All", "Buildtools"],
-  },
-  {
-    id: 28,
-    title: "Tableau",
-    image: "/images/projects/tableau-icon-svgrepo-com.svg",
-    tag: ["All", "Othertools"],
-  },
-  {
-    id: 29,
+    id: 23,
     title: "Docker",
     image: "/images/projects/docker-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
   {
-    d: 30,
+    d: 24,
     title: "Kubernetes",
     image: "/images/projects/kubernetes-svgrepo-com.svg",
     tag: ["All", "Buildtools"],
   },
+  
 ];
 
 const SkillsSection = () => {

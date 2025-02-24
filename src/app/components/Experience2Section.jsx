@@ -10,20 +10,26 @@ const TAB_DATA = [
     role: "Frontend Web Developer | Houston, TX",
     // location: "Sugar, TX",
     id: "internship",
-    period:"(Feb 2024 - Present)",
+    period:"(Aug 2022 - Present)",
     content: (
       <ul className="list-disc pl-2">
+        <li>Developed and maintained custom reusable Angular modules for shared components, services, and utilities to reduce code duplication and ensure modularity.</li>
+        <li>Initiating Amazon EC2 Cloud Instances using Amazon Web Services and managing and configuring launched instances with respect to specific applications. </li>
+        <li>Improved page loading times by optimizing the build process using Angular CLI's AOT (Ahead of Time) compilation and lazy loading.</li>
+        <li>Implemented complex state management using NgRx Store, Actions, Selectors, and Effects to handle asynchronous operations and ensure a single source of truth across the app.</li>
+        <li>Designed and implemented role-based access control and route guards using CanActivate, CanDeactivate, and CanLoad to control access to routes based on user roles and permissions.</li>
+        <li>Used content projection to build reusable components that allows parent components to pass template content into child components.</li>
+        <li>Developed custom Angular pipes for data formatting (e.g., currency, date) and custom directives for DOM manipulation to implement reusable logic across components.</li>
+        <li>Applied advanced techniques for SEO optimization in Angular applications with Angular Universal by generating meta tags dynamically based on route data and ensuring fast server-side rendering (SSR).</li>
+        <li>Applied the OnPush change detection strategy in complex components to minimize Angular’s change detection overhead, reducing performance bottlenecks in large applications.</li>
+        <li>Worked in Agile teams, participating in daily stand-ups, sprint planning, and retrospective meetings to ensure smooth collaboration and continuous delivery of high-quality features.</li>
+        <li>Wrote unit and end-to-end tests using Jasmine and Karma, ensuring code quality and high test coverage.</li>
+        <li>Collaborated with the backend team to integrate RESTful APIs, ensuring smooth data binding and component communication.</li>
+        <li>Initiated CI/CD pipelines using Jenkins, Docker, streamlining deployment process for Kubernetes-based applications.</li>
+        <li>Successfully collaborated with remote and distributed teams across different time zones, ensuring effective communication and maintaining productivity in a global environment.</li>
+        <li>Engaged in user story grooming and backlog refinement sessions with product owners and stakeholders, providing input on feasibility, complexity, and the best approach to implement features in Angular.</li>
 
-      <li>Spearheaded the development of an e-commerce web application using React, TypeScript, and optimized UI/UX workflows
-using Figma, on complience with WCAG 2.1 standards, reducing design-to-development time by 30%.</li>
-
-      <li>Boosted frontend performance by implementing code splitting, pagination and lazy loading, improving user interaction speed by 35%.</li>
-      <li>Migrated 15+ REST APIs to GraphQL, cutting down API request complexity by 50% and enabling flexible data retrieval.</li>
-      <li>Utilized jQuery for DOM manipulation, event handling, and AJAX requests, enhancing web performance by 20% faster page loads.</li>
-      <li>Integrated D3.js for data transformation and preprocessing from various sources (JSON, XML, CSV), ensuring actionable insights.</li>
-      <li>Conducted code reviews, resolved JIRA issues, and performed unit testing using Jest, ensuring robust UI development.</li>
-      <li>Initiated CI/CD pipelines with Jenkins and Docker for Kubernetes based application deployment.</li>     
-      <li>Collaborated with UX/UI designers, backend developers, and product managers to deliver high-quality feature development.</li>
+      
       </ul>
     ),
   },

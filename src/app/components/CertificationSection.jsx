@@ -5,31 +5,30 @@ import CertificationTag from "./CertificationTag";
 
 import { motion, useInView } from "framer-motion";
 const CertificationData = [
+  {
+    id: 1,
+    Organization: "AWS Certified",
+    Role: "Solution Architect Associate",
+    image: "/images/projects/AWS.png",
+
+    tag: ["All","Web Technologies","Cloud"],
+
+    previewUrl: "/images/projects/AWS Certified Solutions Architect - Associate certificate (1).pdf",
+  },
     {
-      id: 1,
+      id: 2,
       Organization: "Microsoft Certified",
-      Role: "AZ-204: Azure Developer Associate",
+      Role: "Azure Developer Associate",
       image: "/images/projects/AZ-204.svg",
 
       tag: ["All","Web Technologies","Cloud"],
 
       previewUrl: "https://learn.microsoft.com/api/credentials/share/en-us/VyshnaviKarumuru-5044/CA48AE8C041D3A52?sharingId=60D137E327399C2A",
     },
-      
-    {
-      id: 2,
-      Organization: "Coursera",
-      Role: "Frontend Development with React",
-      image: "/images/projects/coursera-svgrepo-com.svg",
-
-      tag: ["All","Web Technologies"],
-
-      previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
-    },
     {
       id: 3,
       Organization: "Microsoft Certified",
-      Role: "AZ-900: Azure Fundamentals",
+      Role: "Azure Fundamentals",
       image: "/images/projects/az-900.svg",
 
       tag: ["All","Cloud"],
@@ -39,7 +38,7 @@ const CertificationData = [
     {
       id: 4,
       Organization: "Microsoft Certified",
-      Role: "DP-900: Azure Data Fundamentals",
+      Role: "Azure Data Fundamentals",
  
       image: "/images/projects/az-900.svg",
       tag: ["All","Cloud"],
@@ -48,9 +47,18 @@ const CertificationData = [
     },
     {
       id: 5,
+      Organization: "Coursera",
+      Role: "Frontend Development with React",
+      image: "/images/projects/coursera-svgrepo-com.svg",
+
+      tag: ["All","Web Technologies"],
+
+      previewUrl: "https://coursera.org/verify/MN6ZCE3Y6824",
+    },
+    {
+      id: 6,
       Organization: "Udemy",
       Role: "Python Mega Course",
-
       image: "/images/projects/udemy-svgrepo-com.svg",
       tag: ["All","Languages"],
 
