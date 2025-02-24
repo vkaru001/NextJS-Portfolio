@@ -15,7 +15,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li>Developed and maintained custom reusable Angular modules for shared components, services, and utilities to reduce code duplication and ensure modularity.</li>
         <li>Initiating Amazon EC2 Cloud Instances using Amazon Web Services and managing and configuring launched instances with respect to specific applications. </li>
-        <li>Improved page loading times by optimizing the build process using Angular CLI's AOT (Ahead of Time) compilation and lazy loading.</li>
+        <li>Improved page loading times by optimizing the build process using Angular CLIs AOT (Ahead of Time) compilation and lazy loading.</li>
         <li>Implemented complex state management using NgRx Store, Actions, Selectors, and Effects to handle asynchronous operations and ensure a single source of truth across the app.</li>
         <li>Designed and implemented role-based access control and route guards using CanActivate, CanDeactivate, and CanLoad to control access to routes based on user roles and permissions.</li>
         <li>Used content projection to build reusable components that allows parent components to pass template content into child components.</li>
