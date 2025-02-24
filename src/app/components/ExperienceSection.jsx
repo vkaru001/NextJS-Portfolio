@@ -18,11 +18,11 @@ const TAB_DATA = [
         <li>Implemented client-side functionalities such as hide/show elements, event handling, and AJAX calls using AngularJS and jQlite, improving UI responsiveness.</li>
         <li>Developed and deployed scalable Angular applications on AWS, utilizing S3 for static hosting, CloudFront for content delivery, and Cognito for user authentication, enhancing security and reducing latency by 30%.</li>
         <li>Improved the performance of the app by implementing change detection strategies and trackBy to enhance DOM rendering efficiency.</li>
-        <li>Used Angular’s built-in PreloadAllModules and developed custom preloading strategies to optimize resource loading in the background while maintaining app responsiveness.</li>
+        <li>Used Angulars built-in PreloadAllModules and developed custom preloading strategies to optimize resource loading in the background while maintaining app responsiveness.</li>
         <li>Conducted unit testing and debugging to ensure a bug-free experience across multiple browsers, improving application stability</li>
         <li>Worked in Agile teams, collaborating with backend developers, UX/UI designers, and product managers to optimize the user experience.</li>
         <li>Actively participated in conflict resolution and discussions, ensuring that team disagreements were addressed constructively and that the best technical decisions were made without impacting team morale.</li>
-        <li>Participated actively in peer code reviews, providing constructive feedback to ensure code quality, adherence to best practices, and consistency across the project while learning from others' code.</li>
+        <li>Participated actively in peer code reviews, providing constructive feedback to ensure code quality, adherence to best practices, and consistency across the project while learning from others code.</li>
 
       </ul>
     ),
