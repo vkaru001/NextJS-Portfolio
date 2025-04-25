@@ -6,23 +6,18 @@ import TabButton from "./TabButton";
 const TAB_DATA = [
   {
     organization: "Suvarna TechnoSoft",
-    role: "Frontend Developer | Hyderabad, IND",
+    role: "Full Stack Developer | Hyderabad, IND",
     id: "fulltime",
-    period: "(Jan 2020 - July 2022)",
+    period: "(Jun 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Developed dynamic UI components using Angular, TypeScript, and JavaScript ES6+, ensuring seamless user interactions with MVC capability.</li>
-        <li>Supported client queries for monthly statements and enabled transaction sorting based on custom criteria using AngularJS, incorporating data binding, filters, and custom sorter functions.</li>
-        <li>Created custom directives and filters in AngularJS with built-in $http services, streamlining data retrieval through dependency injection.</li>
-        <li>Utilized AngularJS dependency injection to manage and inject various services, including custom services and reusable directives, optimizing application modularity.</li>
-        <li>Implemented client-side functionalities such as hide/show elements, event handling, and AJAX calls using AngularJS and jQlite, improving UI responsiveness.</li>
-        <li>Developed and deployed scalable Angular applications on AWS, utilizing S3 for static hosting, CloudFront for content delivery, and Cognito for user authentication, enhancing security and reducing latency by 30%.</li>
-        <li>Improved the performance of the app by implementing change detection strategies and trackBy to enhance DOM rendering efficiency.</li>
-        <li>Used Angulars built-in PreloadAllModules and developed custom preloading strategies to optimize resource loading in the background while maintaining app responsiveness.</li>
-        <li>Conducted unit testing and debugging to ensure a bug-free experience across multiple browsers, improving application stability</li>
-        <li>Worked in Agile teams, collaborating with backend developers, UX/UI designers, and product managers to optimize the user experience.</li>
-        <li>Actively participated in conflict resolution and discussions, ensuring that team disagreements were addressed constructively and that the best technical decisions were made without impacting team morale.</li>
-        <li>Participated actively in peer code reviews, providing constructive feedback to ensure code quality, adherence to best practices, and consistency across the project while learning from others code.</li>
+        <li>Developed and deployed React based enterprise applications for healthcare and pharmaceutical providers using AWS, improving user engagement and response times by 30%.</li>
+        <li>Built secure Java 2EE applications using Spring Boot, with RESTful microservices and Redis caching, reducing API calls by 50% and tracked performance with Dynatrace.</li>
+        <li>Led technical debt removal initiatives, refactoring legacy Java codebases to improve modularity and reduce bugs by 30%.</li>
+        <li>Optimized Oracle SQL queries and indexed high-frequency database transactions, reducing query execution time by 25%.</li>
+        <li>Conducted root cause analysis on high-severity production incidents using JIRA, implementing performance optimizations.</li>
+        <li>Implemented process enhancement initiatives, automated deployment pipelines with Jenkins, by 40% faster deployment times.</li>
+        <li>Collaborated with cross-functional team to develop new application features, while following HIPAA compliance guidelines.</li>
 
       </ul>
     ),
