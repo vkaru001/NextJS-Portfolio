@@ -8,7 +8,7 @@ const TAB_DATA = [
     organization: "Suvarna TechnoSoft",
     role: "Full Stack Developer | Hyderabad, IND",
     id: "fulltime",
-    period: "(Jun 2020 - July 2022)",
+    period: "(Apr 2020 - July 2022)",
     content: (
       <ul className="list-disc pl-2">
         <li>Developed and deployed React based enterprise applications for healthcare and pharmaceutical providers using AWS, improving user engagement and response times by 30%.</li>

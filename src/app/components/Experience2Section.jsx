@@ -13,8 +13,8 @@ const TAB_DATA = [
     period:"(Feb 2024 - Present)",
     content: (
       <ul className="list-disc pl-2">
-        <li>Designed and developed a client-facing application with React.js and TypeScript, using Material-UI for enhanced UI/UX. </li>
-        <li>Optimized enterprise-level microservices using Java, Hibernate ORM &PostgreSQL, ensuring scalability, and performance.</li>
+        <li>Designed and developed a client-facing application with React.js and TypeScript, using D3.js, Redux and Material-UI for enhanced UI/UX. </li>
+        <li>Optimized enterprise-level microservices using Node.js, &PostgreSQL, ensuring scalability, and performance.</li>
         <li>Integrated Swagger UI for API documentation, streamlining cross-team collaboration and reducing debugging time by 50%.</li>
         <li>Managed containerized application using Docker & Kubernetes on AWS ECS, reducing service initialization time by 60%.</li>
         <li>Built an automated notification system using AWS Aurora, enabling real-time data processing across 15+ client workflows. </li>
